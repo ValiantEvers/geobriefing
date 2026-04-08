@@ -1,134 +1,268 @@
 {
-  "generated_at": "2026-04-08T05:00:00Z",
-  "generated_date": "8. april 2026",
+  "generated_at": "2026-04-08T10:54:21Z",
+  "generated_date": "08. april 2026",
   "threat_level": {
-    "level": "Elevated",
-    "color": "#BA7517"
+    "level": "High",
+    "color": "#A32D2D"
   },
   "track_summary": {
-    "pengepolitikk": { "count": 2, "color": "#185FA5", "label": "Pengepolitikk" },
-    "handel_sanksjoner": { "count": 3, "color": "#A32D2D", "label": "Handel / Sanksjoner" },
-    "energi_ravarer": { "count": 2, "color": "#639922", "label": "Energi / Råvarer" },
-    "konflikter": { "count": 2, "color": "#D85A30", "label": "Konflikter" },
-    "valg_maktskifter": { "count": 1, "color": "#7F77DD", "label": "Valg / Maktskifter" },
-    "tech_regulering": { "count": 1, "color": "#1D9E75", "label": "Tech / Regulering" }
+    "pengepolitikk": {
+      "count": 0,
+      "color": "#185FA5",
+      "label": "Pengepolitikk"
+    },
+    "handel_sanksjoner": {
+      "count": 2,
+      "color": "#A32D2D",
+      "label": "Handel / Sanksjoner"
+    },
+    "energi_ravarer": {
+      "count": 1,
+      "color": "#639922",
+      "label": "Energi / Ravarer"
+    },
+    "konflikter": {
+      "count": 9,
+      "color": "#D85A30",
+      "label": "Konflikter"
+    },
+    "valg_maktskifter": {
+      "count": 6,
+      "color": "#7F77DD",
+      "label": "Valg / Maktskifter"
+    },
+    "tech_regulering": {
+      "count": 0,
+      "color": "#1D9E75",
+      "label": "Tech / Regulering"
+    }
   },
   "articles": [
     {
-      "id": "a1b2c3d4e5f6",
-      "title": "US announces sweeping new semiconductor export controls targeting China",
-      "description": "The Biden administration unveiled expanded restrictions on advanced chip exports to China, affecting major suppliers including NVIDIA and ASML. Markets dropped sharply on the news.",
-      "link": "https://www.reuters.com/technology/",
-      "score": 9.2,
-      "source_count": 5,
-      "source_names": ["Reuters", "Reuters Biz", "BBC", "FT", "Al Jazeera"],
+      "id": "c4d5480fd7c0",
+      "title": "Oil prices plunge and shares jump on US-Iran ceasefire plan",
+      "description": "Crude prices tumbled by as much as 15% on the conditional pause but remain far higher than before the war.",
+      "link": "https://www.bbc.com/news/articles/c8r40y3rv75o?at_medium=RSS&at_campaign=rss",
+      "score": 7.7,
+      "source_count": 1,
+      "source_names": [
+        "bbc_world"
+      ],
       "tracks": [
-        { "name": "handel_sanksjoner", "color": "#A32D2D", "hits": 4 },
-        { "name": "tech_regulering", "color": "#1D9E75", "hits": 3 }
+        {
+          "name": "energi_ravarer",
+          "color": "#639922",
+          "hits": 2
+        },
+        {
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 2
+        }
       ]
     },
     {
-      "id": "b2c3d4e5f6a1",
-      "title": "ECB signals rate cut in June as eurozone PMI weakens further",
-      "description": "ECB President Lagarde indicated the central bank is ready to ease monetary policy at its June meeting, citing weaker-than-expected manufacturing data across the eurozone.",
-      "link": "https://www.ecb.europa.eu/",
-      "score": 8.5,
-      "source_count": 4,
-      "source_names": ["Reuters Biz", "FT", "DN", "Economist"],
+      "id": "466740661a3c",
+      "title": "China tries shock-and-awe on Donald Trump",
+      "description": "Xi Jinping’s bet that dramatic escalation is the way to win a trade war",
+      "link": "https://www.economist.com/international/2025/10/12/china-tries-shock-and-awe-on-donald-trump",
+      "score": 7.0,
+      "source_count": 1,
+      "source_names": [
+        "economist_intl"
+      ],
       "tracks": [
-        { "name": "pengepolitikk", "color": "#185FA5", "hits": 5 }
+        {
+          "name": "handel_sanksjoner",
+          "color": "#A32D2D",
+          "hits": 1
+        },
+        {
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 2
+        }
       ]
     },
     {
-      "id": "c3d4e5f6a1b2",
-      "title": "OPEC+ delays production increase to Q3, Brent crude jumps 2.1%",
-      "description": "Saudi Arabia pushed for continued output restraint amid uncertain demand outlook. Oil prices surged as markets adjusted expectations for global supply.",
-      "link": "https://www.bloomberg.com/energy",
-      "score": 7.8,
-      "source_count": 4,
-      "source_names": ["Reuters Biz", "BBC", "Al Jazeera", "DN"],
+      "id": "80089032caba",
+      "title": "A UN vote on Palestine underlines America’s weakening clout",
+      "description": "Russia and China are riding a surge of support for the Palestinians since the Gaza war started",
+      "link": "https://www.economist.com/international/2024/09/18/a-un-vote-on-palestine-underlines-americas-weakening-clout",
+      "score": 7.0,
+      "source_count": 1,
+      "source_names": [
+        "economist_intl"
+      ],
       "tracks": [
-        { "name": "energi_ravarer", "color": "#639922", "hits": 4 }
+        {
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 1
+        },
+        {
+          "name": "valg_maktskifter",
+          "color": "#7F77DD",
+          "hits": 1
+        }
       ]
     },
     {
-      "id": "d4e5f6a1b2c3",
-      "title": "India and EU sign landmark free trade agreement after 16 years",
-      "description": "The comprehensive trade deal covers tariff reductions on over 90% of goods and sets new standards for digital trade and sustainability provisions.",
-      "link": "https://www.ft.com/trade",
-      "score": 7.4,
-      "source_count": 3,
-      "source_names": ["Reuters", "FT", "Economist"],
-      "tracks": [
-        { "name": "handel_sanksjoner", "color": "#A32D2D", "hits": 3 }
-      ]
-    },
-    {
-      "id": "e5f6a1b2c3d4",
-      "title": "Taiwan conducts largest military exercise since 2022 as Beijing escalates rhetoric",
-      "description": "The five-day drill simulates defense against a naval blockade. China's foreign ministry condemned the exercise. Semiconductor stocks fell across Asian markets.",
-      "link": "https://www.bbc.com/news/world-asia",
-      "score": 7.1,
-      "source_count": 4,
-      "source_names": ["Reuters", "BBC", "Al Jazeera", "NRK"],
-      "tracks": [
-        { "name": "konflikter", "color": "#D85A30", "hits": 4 },
-        { "name": "handel_sanksjoner", "color": "#A32D2D", "hits": 2 }
-      ]
-    },
-    {
-      "id": "f6a1b2c3d4e5",
-      "title": "Norges Bank holds key rate at 4.25%, signals cut in September",
-      "description": "The central bank kept rates unchanged but adjusted forward guidance, suggesting the easing cycle will begin later this year if inflation continues to moderate.",
-      "link": "https://www.norges-bank.no/",
+      "id": "f532575a449e",
+      "title": "The world faces its worst trade wars since the 1930s",
+      "description": "Donald Trump’s re-election accelerates a crisis for globalisation",
+      "link": "https://www.economist.com/international/2024/11/07/the-world-faces-its-worst-trade-wars-since-the-1930s",
       "score": 6.8,
-      "source_count": 2,
-      "source_names": ["DN", "NRK"],
+      "source_count": 1,
+      "source_names": [
+        "economist_intl"
+      ],
       "tracks": [
-        { "name": "pengepolitikk", "color": "#185FA5", "hits": 4 }
+        {
+          "name": "handel_sanksjoner",
+          "color": "#A32D2D",
+          "hits": 1
+        },
+        {
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 1
+        },
+        {
+          "name": "valg_maktskifter",
+          "color": "#7F77DD",
+          "hits": 1
+        }
       ]
     },
     {
-      "id": "a7b8c9d0e1f2",
-      "title": "South Korea snap election called after president's removal from office",
-      "description": "The constitutional court upheld the impeachment, triggering a 60-day countdown to new elections. Markets reacted calmly as the transition was widely expected.",
-      "link": "https://www.bbc.com/news/world-asia",
+      "id": "f9901145b0c6",
+      "title": "The three steps on America’s ladder of military escalation",
+      "description": "Could America be dragged back into another Middle East war?",
+      "link": "https://www.economist.com/international/2023/10/25/the-three-steps-on-americas-ladder-of-military-escalation",
+      "score": 6.8,
+      "source_count": 1,
+      "source_names": [
+        "economist_intl"
+      ],
+      "tracks": [
+        {
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 3
+        }
+      ]
+    },
+    {
+      "id": "3ed31bc1b432",
+      "title": "Iran hevdar Trump trugar med krigs­brotsverk",
+      "description": "Trump sin tidsfrist til Iran med å opne Hormuzsundet er i ferd med å gå ut. Presidenten sine trugslar om maktbruk har vekt sterke reaksjonar.",
+      "link": "https://www.nrk.no/urix/reaksjonar-pa-trump-sine-trugslar-mot-iran-1.17836017",
+      "score": 6.8,
+      "source_count": 1,
+      "source_names": [
+        "nrk_urix"
+      ],
+      "tracks": [
+        {
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 1
+        },
+        {
+          "name": "valg_maktskifter",
+          "color": "#7F77DD",
+          "hits": 2
+        }
+      ]
+    },
+    {
+      "id": "97053b00c87e",
+      "title": "Støre om Trumps Iran-utspill: – Dette er en egen kategori",
+      "description": "Tirsdag ettermiddag sa USAs president Donald Trump at «en hel sivilisasjon vil dø i natt, for aldri å vende tilbake»\n– Dette er en egen kategori, sier statsminister Jonas Gahr Støre (Ap) til NRK på spørsmål om hva han synes om Trumps utspill.\nStøre er klar på at konflikten i Midtøsten ikke kan lø...",
+      "link": "https://www.nrk.no/nyheter/store-om-trumps-iran-utspill_-_-dette-er-en-egen-kategori-1.17837464",
+      "score": 6.7,
+      "source_count": 1,
+      "source_names": [
+        "nrk_urix"
+      ],
+      "tracks": [
+        {
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 1
+        },
+        {
+          "name": "valg_maktskifter",
+          "color": "#7F77DD",
+          "hits": 3
+        }
+      ]
+    },
+    {
+      "id": "fe8264552797",
+      "title": "French couple leave Iran after more than three years in jail",
+      "description": "Cecile Kohler and Jacques Paris are on their way home after being allowed to leave the country, the French president says.",
+      "link": "https://www.bbc.com/news/articles/clyxk5640wko?at_medium=RSS&at_campaign=rss",
       "score": 6.5,
-      "source_count": 3,
-      "source_names": ["Reuters", "BBC", "Al Jazeera"],
+      "source_count": 1,
+      "source_names": [
+        "bbc_world"
+      ],
       "tracks": [
-        { "name": "valg_maktskifter", "color": "#7F77DD", "hits": 3 }
+        {
+          "name": "valg_maktskifter",
+          "color": "#7F77DD",
+          "hits": 3
+        }
       ]
     },
     {
-      "id": "b8c9d0e1f2a7",
-      "title": "Russia-Ukraine front lines see renewed heavy fighting near Pokrovsk",
-      "description": "Both sides reported significant casualties as Russian forces launched a new offensive. EU foreign ministers are meeting to discuss additional military aid packages.",
-      "link": "https://www.aljazeera.com/",
-      "score": 6.3,
-      "source_count": 3,
-      "source_names": ["Reuters", "BBC", "Al Jazeera"],
+      "id": "9e7c934d0035",
+      "title": "Rutte’s ‘Daddy’ strategy under strain as Nato head meets Trump",
+      "description": "Also in this newsletter: Italy walks an Iran tightrope with the US president",
+      "link": "https://www.ft.com/content/b7a69253-13e5-44f0-9537-c30220d5cc40",
+      "score": 6.5,
+      "source_count": 1,
+      "source_names": [
+        "ft_world"
+      ],
       "tracks": [
-        { "name": "konflikter", "color": "#D85A30", "hits": 5 }
+        {
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 1
+        },
+        {
+          "name": "valg_maktskifter",
+          "color": "#7F77DD",
+          "hits": 2
+        }
       ]
     },
     {
-      "id": "c9d0e1f2a7b8",
-      "title": "Lithium prices spike 15% on Chile export quota announcement",
-      "description": "Chile's government announced quarterly production caps on lithium exports, raising concerns about EV battery supply chains globally.",
-      "link": "https://www.bloomberg.com/commodities",
-      "score": 5.9,
-      "source_count": 2,
-      "source_names": ["Reuters Biz", "FT"],
+      "id": "baeb5751ba07",
+      "title": "The War Room newsletter: Did a Russian weapon spook Trump?",
+      "description": "Shashank Joshi, our defence editor, talks missile protection—in Yorkshire",
+      "link": "https://www.economist.com/international/2025/11/03/the-war-room-newsletter-did-a-russian-weapon-spook-trump",
+      "score": 6.5,
+      "source_count": 1,
+      "source_names": [
+        "economist_intl"
+      ],
       "tracks": [
-        { "name": "energi_ravarer", "color": "#639922", "hits": 3 }
+        {
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 2
+        }
       ]
     }
   ],
   "stats": {
-    "total_fetched": 347,
-    "after_dedup": 142,
-    "above_threshold": 23,
-    "published": 9
+    "total_fetched": 485,
+    "after_dedup": 467,
+    "above_threshold": 168,
+    "published": 10
   }
 }
