@@ -1,0 +1,79 @@
+{
+  "sources": {
+    "reuters_world": "https://feeds.reuters.com/Reuters/worldNews",
+    "reuters_business": "https://feeds.reuters.com/reuters/businessNews",
+    "ap_topnews": "https://rsshub.app/apnews/topics/apf-topnews",
+    "bbc_world": "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "aljazeera": "https://www.aljazeera.com/xml/rss/all.xml",
+    "ft_world": "https://www.ft.com/world?format=rss",
+    "economist_intl": "https://www.economist.com/international/rss.xml",
+    "nrk_urix": "https://www.nrk.no/toppsaker.rss",
+    "dn_nyheter": "https://www.dn.no/rss"
+  },
+  "tracks": {
+    "pengepolitikk": {
+      "color": "#185FA5",
+      "keywords": [
+        "central bank", "interest rate", "rate cut", "rate hike", "federal reserve",
+        "ecb", "boj", "norges bank", "inflation", "monetary policy", "quantitative",
+        "rente", "sentralbank", "pengepolitikk", "inflasjon", "styringsrente",
+        "lagarde", "powell", "bache"
+      ]
+    },
+    "handel_sanksjoner": {
+      "color": "#A32D2D",
+      "keywords": [
+        "sanctions", "tariff", "trade war", "export control", "embargo", "trade deal",
+        "free trade", "wto", "trade agreement", "import duty", "protectionism",
+        "sanksjoner", "toll", "handelskrig", "eksportrestriksjoner", "frihandel"
+      ]
+    },
+    "energi_ravarer": {
+      "color": "#639922",
+      "keywords": [
+        "opec", "oil price", "brent", "crude", "natural gas", "lng", "pipeline",
+        "energy crisis", "renewable", "lithium", "rare earth", "commodity",
+        "oljepris", "energi", "gass", "equinor", "nordsjøen"
+      ]
+    },
+    "konflikter": {
+      "color": "#D85A30",
+      "keywords": [
+        "military", "invasion", "war", "conflict", "nato", "troops", "missile",
+        "ceasefire", "escalation", "nuclear", "defense", "airstrike", "drone",
+        "krig", "konflikt", "forsvar", "militær", "våpenhvile"
+      ]
+    },
+    "valg_maktskifter": {
+      "color": "#7F77DD",
+      "keywords": [
+        "election", "vote", "referendum", "inauguration", "coup", "president",
+        "prime minister", "parliament", "coalition", "resign", "impeach",
+        "valg", "statsminister", "regjering", "storting", "president"
+      ]
+    },
+    "tech_regulering": {
+      "color": "#1D9E75",
+      "keywords": [
+        "ai regulation", "antitrust", "big tech", "data privacy", "gdpr",
+        "semiconductor", "chip", "artificial intelligence", "crypto regulation",
+        "digital markets act", "tech ban", "kunstig intelligens", "personvern"
+      ]
+    }
+  },
+  "scoring": {
+    "consensus_weight": 0.40,
+    "track_match_weight": 0.30,
+    "goldstein_weight": 0.20,
+    "actor_weight": 0.10
+  },
+  "g20_actors": [
+    "united states", "china", "russia", "germany", "france", "united kingdom",
+    "japan", "india", "brazil", "saudi arabia", "south korea", "australia",
+    "canada", "italy", "turkey", "indonesia", "mexico", "argentina",
+    "south africa", "european union", "usa", "uk", "eu",
+    "norge", "norway", "nato", "un", "imf", "world bank"
+  ],
+  "min_score": 5.0,
+  "max_articles": 10
+}

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Briefing — Geopolitisk Status</title>
+<meta name="description" content="Daglig geopolitisk briefing med de viktigste nyhetene.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#faf9f6;--bg2:#f2f0eb;--card:#fff;
+  --text:#0a0f1a;--text2:#3d4152;--text3:#8b8e99;
+  --border:rgba(10,15,26,.08);--border2:rgba(10,15,26,.04);
+  --accent:#0a0f1a;
+  --serif:'Instrument Serif',Georgia,serif;
+  --sans:'DM Sans',system-ui,sans-serif;
+  --radius:16px;--radius-sm:10px;
+  --shadow:0 1px 3px rgba(10,15,26,.04),0 8px 24px rgba(10,15,26,.06);
+  --shadow-hover:0 2px 8px rgba(10,15,26,.06),0 16px 40px rgba(10,15,26,.1);
+}
+@media(prefers-color-scheme:dark){
+  :root{
+    --bg:#0e1117;--bg2:#181c24;--card:#1a1f28;
+    --text:#e8e6e1;--text2:#a8a9b0;--text3:#5e6070;
+    --border:rgba(232,230,225,.1);--border2:rgba(232,230,225,.05);
+    --shadow:0 1px 3px rgba(0,0,0,.2),0 8px 24px rgba(0,0,0,.3);
+    --shadow-hover:0 2px 8px rgba(0,0,0,.3),0 16px 40px rgba(0,0,0,.4);
+  }
+}
+html{font-size:16px;scroll-behavior:smooth}
+body{
+  font-family:var(--sans);background:var(--bg);color:var(--text);
+  line-height:1.6;min-height:100vh;
+  -webkit-font-smoothing:antialiased;
+}
+
+/* ── Layout ── */
+.wrapper{max-width:720px;margin:0 auto;padding:2rem 1.5rem 4rem}
+
+/* ── Header ── */
+.header{margin-bottom:2.5rem;padding-bottom:2rem;border-bottom:1px solid var(--border)}
+.header-top{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;flex-wrap:wrap;margin-bottom:1.25rem}
+.brand{display:flex;align-items:center;gap:.6rem}
+.brand-dot{width:8px;height:8px;border-radius:50%;background:var(--accent);flex-shrink:0}
+.brand-label{font-family:var(--sans);font-size:.7rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--text3)}
+.date{font-family:var(--serif);font-size:2rem;font-style:italic;color:var(--text);line-height:1.2}
+.updated{font-size:.78rem;color:var(--text3);margin-top:.25rem}
+
+/* ── Threat Level ── */
+.threat{display:inline-flex;align-items:center;gap:.5rem;padding:.45rem 1rem;border-radius:100px;font-size:.75rem;font-weight:500;letter-spacing:.04em;border:1px solid}
+.threat-dot{width:7px;height:7px;border-radius:50%;animation:pulse 2.5s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+
+/* ── Stats Row ── */
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem;margin-bottom:2.5rem}
+.stat{background:var(--bg2);border-radius:var(--radius-sm);padding:1rem 1.25rem;text-align:center;border:1px solid var(--border2)}
+.stat-value{font-family:var(--serif);font-size:1.75rem;font-weight:400;line-height:1.2}
+.stat-label{font-size:.72rem;color:var(--text3);font-weight:500;letter-spacing:.04em;text-transform:uppercase;margin-top:.15rem}
+
+/* ── Section Titles ── */
+.section-title{font-family:var(--sans);font-size:.7rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--text3);margin-bottom:1rem}
+
+/* ── Article Cards ── */
+.articles{display:flex;flex-direction:column;gap:.75rem;margin-bottom:2.5rem}
+.article{
+  background:var(--card);border:1px solid var(--border);border-radius:var(--radius);
+  padding:1.25rem 1.5rem;display:grid;grid-template-columns:44px 1fr;gap:1.25rem;
+  text-decoration:none;color:inherit;transition:box-shadow .3s,transform .25s,border-color .3s;
+  cursor:pointer;
+}
+.article:hover{box-shadow:var(--shadow-hover);transform:translateY(-2px);border-color:rgba(10,15,26,.14)}
+@media(prefers-color-scheme:dark){.article:hover{border-color:rgba(232,230,225,.18)}}
+
+.score-ring{
+  width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-size:.82rem;font-weight:600;flex-shrink:0;
+  position:relative;
+}
+.score-ring::before{
+  content:'';position:absolute;inset:0;border-radius:50%;border:2px solid;opacity:.15;
+}
+.score-ring::after{
+  content:'';position:absolute;inset:0;border-radius:50%;
+  border:2px solid transparent;border-top-color:inherit;
+  transform:rotate(-45deg);
+}
+.score-high{color:#b93c3c;border-color:#b93c3c}
+.score-high::before{border-color:#b93c3c}
+.score-high::after{border-top-color:#b93c3c;border-right-color:#b93c3c}
+.score-mid{color:#a67c1a;border-color:#a67c1a}
+.score-mid::before{border-color:#a67c1a}
+.score-mid::after{border-top-color:#a67c1a;border-right-color:#a67c1a}
+.score-low{color:var(--text3);border-color:var(--text3)}
+.score-low::before{border-color:var(--text3)}
+.score-low::after{border-top-color:var(--text3)}
+
+.article-body{min-width:0}
+.article-title{font-family:var(--serif);font-size:1.1rem;line-height:1.35;margin-bottom:.35rem;font-weight:400}
+.article-desc{font-size:.82rem;color:var(--text2);line-height:1.55;margin-bottom:.65rem;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.article-meta{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap}
+.track-tag{
+  font-size:.68rem;font-weight:500;padding:.2rem .6rem;border-radius:100px;
+  letter-spacing:.02em;border:1px solid;
+}
+.source-tag{font-size:.68rem;color:var(--text3);display:flex;align-items:center;gap:.3rem}
+.source-tag::before{content:'';width:3px;height:3px;border-radius:50%;background:var(--text3);flex-shrink:0}
+
+/* ── Track Chips ── */
+.tracks-row{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:2.5rem}
+.track-chip{
+  display:flex;align-items:center;gap:.45rem;padding:.4rem .9rem;
+  border-radius:100px;font-size:.75rem;font-weight:500;
+  background:var(--bg2);border:1px solid var(--border);transition:all .25s;
+}
+.track-chip:hover{box-shadow:var(--shadow);transform:translateY(-1px)}
+.track-chip-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0}
+.track-chip-count{
+  background:var(--bg);border-radius:100px;padding:.1rem .45rem;
+  font-size:.65rem;font-weight:600;color:var(--text3);margin-left:.15rem;
+}
+
+/* ── Footer ── */
+.footer{
+  text-align:center;padding-top:2rem;border-top:1px solid var(--border);
+  font-size:.72rem;color:var(--text3);line-height:1.7;
+}
+.footer a{color:var(--text2);text-decoration:none;border-bottom:1px solid var(--border)}
+.footer a:hover{color:var(--text)}
+.pipe-stats{font-family:var(--sans);font-size:.65rem;color:var(--text3);opacity:.6;margin-top:.5rem}
+
+/* ── Loading ── */
+.loading{text-align:center;padding:4rem 0;color:var(--text3);font-size:.85rem}
+.loading-dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--text3);margin:0 3px;animation:loadBounce .8s ease-in-out infinite}
+.loading-dot:nth-child(2){animation-delay:.15s}
+.loading-dot:nth-child(3){animation-delay:.3s}
+@keyframes loadBounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+
+/* ── Empty State ── */
+.empty{text-align:center;padding:3rem 1rem;color:var(--text3)}
+.empty-icon{font-size:2rem;margin-bottom:.75rem;opacity:.4}
+.empty p{font-size:.85rem;max-width:320px;margin:0 auto}
+
+/* ── Responsive ── */
+@media(max-width:540px){
+  .wrapper{padding:1.25rem 1rem 3rem}
+  .date{font-size:1.5rem}
+  .stats{grid-template-columns:1fr 1fr 1fr;gap:.5rem}
+  .stat{padding:.75rem}
+  .stat-value{font-size:1.35rem}
+  .article{grid-template-columns:36px 1fr;gap:1rem;padding:1rem 1.15rem}
+  .score-ring{width:36px;height:36px;font-size:.72rem}
+  .article-title{font-size:1rem}
+}
+</style>
+</head>
+<body>
+
+<div class="wrapper" id="app">
+  <div class="loading" id="loader">
+    <div style="margin-bottom:.75rem">
+      <span class="loading-dot"></span>
+      <span class="loading-dot"></span>
+      <span class="loading-dot"></span>
+    </div>
+    Henter briefing...
+  </div>
+</div>
+
+<script>
+(function(){
+  var app = document.getElementById('app');
+  var loader = document.getElementById('loader');
+
+  fetch('briefing.json?t=' + Date.now())
+    .then(function(r){ return r.json() })
+    .then(render)
+    .catch(function(e){
+      loader.innerHTML = '<div class="empty"><div class="empty-icon">—</div><p>Kunne ikke laste briefing. Sjekk at briefing.json finnes.</p></div>';
+      console.error(e);
+    });
+
+  function render(data){
+    loader.remove();
+    var articles = data.articles || [];
+    var threat = data.threat_level || {};
+    var tracks = data.track_summary || {};
+    var stats = data.stats || {};
+    var genDate = data.generated_date || '';
+    var genAt = data.generated_at || '';
+
+    // Parse update time
+    var updateTime = '';
+    if(genAt){
+      try{
+        var d = new Date(genAt);
+        updateTime = 'Oppdatert kl. ' + d.toLocaleTimeString('no-NO',{hour:'2-digit',minute:'2-digit',timeZone:'Europe/Oslo'});
+      }catch(e){}
+    }
+
+    // Count stats
+    var conflictCount = 0;
+    var cbCount = 0;
+    var sanctionCount = 0;
+    articles.forEach(function(a){
+      (a.tracks||[]).forEach(function(t){
+        if(t.name === 'konflikter') conflictCount++;
+        if(t.name === 'pengepolitikk') cbCount++;
+        if(t.name === 'handel_sanksjoner') sanctionCount++;
+      });
+    });
+
+    // Build HTML
+    var html = '';
+
+    // ── Header
+    html += '<header class="header">';
+    html += '<div class="header-top">';
+    html += '<div><div class="brand"><span class="brand-dot"></span><span class="brand-label">Daily Briefing</span></div>';
+    html += '<h1 class="date">' + esc(genDate) + '</h1>';
+    if(updateTime) html += '<p class="updated">' + esc(updateTime) + '</p>';
+    html += '</div>';
+
+    // Threat badge
+    var tc = threat.color || '#888';
+    html += '<div class="threat" style="color:' + tc + ';border-color:' + tc + '33;background:' + tc + '0d">';
+    html += '<span class="threat-dot" style="background:' + tc + '"></span>';
+    html += esc(threat.level || 'Unknown');
+    html += '</div>';
+    html += '</div></header>';
+
+    // ── Stats
+    html += '<div class="stats">';
+    html += statCard(conflictCount, 'Konflikter', '#D85A30');
+    html += statCard(cbCount, 'Sentralbank', '#185FA5');
+    html += statCard(sanctionCount, 'Handel', '#A32D2D');
+    html += '</div>';
+
+    // ── Track chips
+    html += '<div class="section-title">Dine tracks</div>';
+    html += '<div class="tracks-row">';
+    var trackKeys = Object.keys(tracks);
+    trackKeys.forEach(function(k){
+      var t = tracks[k];
+      if(t.count > 0){
+        html += '<div class="track-chip" data-track="' + k + '" style="cursor:pointer">';
+        html += '<span class="track-chip-dot" style="background:' + t.color + '"></span>';
+        html += esc(t.label);
+        html += '<span class="track-chip-count">' + t.count + '</span>';
+        html += '</div>';
+      }
+    });
+    html += '</div>';
+
+    // ── Articles
+    html += '<div class="section-title">Dagens saker</div>';
+    html += '<div class="articles" id="articleList">';
+    articles.forEach(function(a, i){
+      html += articleCard(a, i);
+    });
+    if(!articles.length){
+      html += '<div class="empty"><div class="empty-icon">—</div><p>Ingen saker over terskel i dag. God dag!</p></div>';
+    }
+    html += '</div>';
+
+    // ── Footer
+    html += '<footer class="footer">';
+    html += 'AI-impakt-score basert på konsensus, tematisk treff og aktørrelevans';
+    if(stats.total_fetched){
+      html += '<div class="pipe-stats">' + stats.total_fetched + ' hentet → ' + stats.after_dedup + ' unike → ' + stats.above_threshold + ' over terskel → ' + stats.published + ' publisert</div>';
+    }
+    html += '</footer>';
+
+    app.innerHTML = html;
+
+    // ── Track filter interactivity
+    var chips = document.querySelectorAll('.track-chip');
+    var activeTrack = null;
+    chips.forEach(function(chip){
+      chip.addEventListener('click', function(){
+        var track = this.getAttribute('data-track');
+        if(activeTrack === track){
+          activeTrack = null;
+          chips.forEach(function(c){ c.style.opacity = '1'; });
+          showAll();
+        } else {
+          activeTrack = track;
+          chips.forEach(function(c){
+            c.style.opacity = c.getAttribute('data-track') === track ? '1' : '.35';
+          });
+          filterByTrack(track);
+        }
+      });
+    });
+
+    function showAll(){
+      document.querySelectorAll('.article').forEach(function(el){ el.style.display = 'grid'; });
+    }
+    function filterByTrack(track){
+      document.querySelectorAll('.article').forEach(function(el){
+        var artTracks = el.getAttribute('data-tracks') || '';
+        el.style.display = artTracks.indexOf(track) !== -1 ? 'grid' : 'none';
+      });
+    }
+
+    // ── Stagger animation
+    document.querySelectorAll('.article').forEach(function(el, i){
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(12px)';
+      el.style.transition = 'opacity .45s ease, transform .45s ease';
+      setTimeout(function(){
+        el.style.opacity = '1';
+        el.style.transform = 'translateY(0)';
+      }, 80 + i * 60);
+    });
+  }
+
+  function articleCard(a, idx){
+    var scoreClass = a.score >= 8 ? 'score-high' : a.score >= 6.5 ? 'score-mid' : 'score-low';
+    var trackNames = (a.tracks||[]).map(function(t){ return t.name }).join(',');
+
+    var h = '<a class="article" href="' + esc(a.link) + '" target="_blank" rel="noopener" data-tracks="' + trackNames + '">';
+    h += '<div class="score-ring ' + scoreClass + '">' + a.score.toFixed(1) + '</div>';
+    h += '<div class="article-body">';
+    h += '<h2 class="article-title">' + esc(a.title) + '</h2>';
+    if(a.description) h += '<p class="article-desc">' + esc(a.description) + '</p>';
+    h += '<div class="article-meta">';
+
+    (a.tracks||[]).forEach(function(t){
+      h += '<span class="track-tag" style="color:' + t.color + ';border-color:' + t.color + '33;background:' + t.color + '0d">';
+      h += esc(t.name.replace(/_/g,' / '));
+      h += '</span>';
+    });
+
+    if(a.source_names && a.source_names.length){
+      h += '<span class="source-tag">' + esc(a.source_names.join(' · ')) + '</span>';
+    }
+
+    h += '</div></div></a>';
+    return h;
+  }
+
+  function statCard(val, label, color){
+    return '<div class="stat"><div class="stat-value" style="color:' + color + '">' + val + '</div><div class="stat-label">' + label + '</div></div>';
+  }
+
+  function esc(s){
+    if(!s) return '';
+    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+})();
+</script>
+</body>
+</html>

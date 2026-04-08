@@ -1,0 +1,134 @@
+{
+  "generated_at": "2026-04-08T05:00:00Z",
+  "generated_date": "8. april 2026",
+  "threat_level": {
+    "level": "Elevated",
+    "color": "#BA7517"
+  },
+  "track_summary": {
+    "pengepolitikk": { "count": 2, "color": "#185FA5", "label": "Pengepolitikk" },
+    "handel_sanksjoner": { "count": 3, "color": "#A32D2D", "label": "Handel / Sanksjoner" },
+    "energi_ravarer": { "count": 2, "color": "#639922", "label": "Energi / Råvarer" },
+    "konflikter": { "count": 2, "color": "#D85A30", "label": "Konflikter" },
+    "valg_maktskifter": { "count": 1, "color": "#7F77DD", "label": "Valg / Maktskifter" },
+    "tech_regulering": { "count": 1, "color": "#1D9E75", "label": "Tech / Regulering" }
+  },
+  "articles": [
+    {
+      "id": "a1b2c3d4e5f6",
+      "title": "US announces sweeping new semiconductor export controls targeting China",
+      "description": "The Biden administration unveiled expanded restrictions on advanced chip exports to China, affecting major suppliers including NVIDIA and ASML. Markets dropped sharply on the news.",
+      "link": "https://www.reuters.com/technology/",
+      "score": 9.2,
+      "source_count": 5,
+      "source_names": ["Reuters", "Reuters Biz", "BBC", "FT", "Al Jazeera"],
+      "tracks": [
+        { "name": "handel_sanksjoner", "color": "#A32D2D", "hits": 4 },
+        { "name": "tech_regulering", "color": "#1D9E75", "hits": 3 }
+      ]
+    },
+    {
+      "id": "b2c3d4e5f6a1",
+      "title": "ECB signals rate cut in June as eurozone PMI weakens further",
+      "description": "ECB President Lagarde indicated the central bank is ready to ease monetary policy at its June meeting, citing weaker-than-expected manufacturing data across the eurozone.",
+      "link": "https://www.ecb.europa.eu/",
+      "score": 8.5,
+      "source_count": 4,
+      "source_names": ["Reuters Biz", "FT", "DN", "Economist"],
+      "tracks": [
+        { "name": "pengepolitikk", "color": "#185FA5", "hits": 5 }
+      ]
+    },
+    {
+      "id": "c3d4e5f6a1b2",
+      "title": "OPEC+ delays production increase to Q3, Brent crude jumps 2.1%",
+      "description": "Saudi Arabia pushed for continued output restraint amid uncertain demand outlook. Oil prices surged as markets adjusted expectations for global supply.",
+      "link": "https://www.bloomberg.com/energy",
+      "score": 7.8,
+      "source_count": 4,
+      "source_names": ["Reuters Biz", "BBC", "Al Jazeera", "DN"],
+      "tracks": [
+        { "name": "energi_ravarer", "color": "#639922", "hits": 4 }
+      ]
+    },
+    {
+      "id": "d4e5f6a1b2c3",
+      "title": "India and EU sign landmark free trade agreement after 16 years",
+      "description": "The comprehensive trade deal covers tariff reductions on over 90% of goods and sets new standards for digital trade and sustainability provisions.",
+      "link": "https://www.ft.com/trade",
+      "score": 7.4,
+      "source_count": 3,
+      "source_names": ["Reuters", "FT", "Economist"],
+      "tracks": [
+        { "name": "handel_sanksjoner", "color": "#A32D2D", "hits": 3 }
+      ]
+    },
+    {
+      "id": "e5f6a1b2c3d4",
+      "title": "Taiwan conducts largest military exercise since 2022 as Beijing escalates rhetoric",
+      "description": "The five-day drill simulates defense against a naval blockade. China's foreign ministry condemned the exercise. Semiconductor stocks fell across Asian markets.",
+      "link": "https://www.bbc.com/news/world-asia",
+      "score": 7.1,
+      "source_count": 4,
+      "source_names": ["Reuters", "BBC", "Al Jazeera", "NRK"],
+      "tracks": [
+        { "name": "konflikter", "color": "#D85A30", "hits": 4 },
+        { "name": "handel_sanksjoner", "color": "#A32D2D", "hits": 2 }
+      ]
+    },
+    {
+      "id": "f6a1b2c3d4e5",
+      "title": "Norges Bank holds key rate at 4.25%, signals cut in September",
+      "description": "The central bank kept rates unchanged but adjusted forward guidance, suggesting the easing cycle will begin later this year if inflation continues to moderate.",
+      "link": "https://www.norges-bank.no/",
+      "score": 6.8,
+      "source_count": 2,
+      "source_names": ["DN", "NRK"],
+      "tracks": [
+        { "name": "pengepolitikk", "color": "#185FA5", "hits": 4 }
+      ]
+    },
+    {
+      "id": "a7b8c9d0e1f2",
+      "title": "South Korea snap election called after president's removal from office",
+      "description": "The constitutional court upheld the impeachment, triggering a 60-day countdown to new elections. Markets reacted calmly as the transition was widely expected.",
+      "link": "https://www.bbc.com/news/world-asia",
+      "score": 6.5,
+      "source_count": 3,
+      "source_names": ["Reuters", "BBC", "Al Jazeera"],
+      "tracks": [
+        { "name": "valg_maktskifter", "color": "#7F77DD", "hits": 3 }
+      ]
+    },
+    {
+      "id": "b8c9d0e1f2a7",
+      "title": "Russia-Ukraine front lines see renewed heavy fighting near Pokrovsk",
+      "description": "Both sides reported significant casualties as Russian forces launched a new offensive. EU foreign ministers are meeting to discuss additional military aid packages.",
+      "link": "https://www.aljazeera.com/",
+      "score": 6.3,
+      "source_count": 3,
+      "source_names": ["Reuters", "BBC", "Al Jazeera"],
+      "tracks": [
+        { "name": "konflikter", "color": "#D85A30", "hits": 5 }
+      ]
+    },
+    {
+      "id": "c9d0e1f2a7b8",
+      "title": "Lithium prices spike 15% on Chile export quota announcement",
+      "description": "Chile's government announced quarterly production caps on lithium exports, raising concerns about EV battery supply chains globally.",
+      "link": "https://www.bloomberg.com/commodities",
+      "score": 5.9,
+      "source_count": 2,
+      "source_names": ["Reuters Biz", "FT"],
+      "tracks": [
+        { "name": "energi_ravarer", "color": "#639922", "hits": 3 }
+      ]
+    }
+  ],
+  "stats": {
+    "total_fetched": 347,
+    "after_dedup": 142,
+    "above_threshold": 23,
+    "published": 9
+  }
+}
