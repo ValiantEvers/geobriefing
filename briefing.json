@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-08T10:54:21Z",
-  "generated_date": "08. april 2026",
+  "generated_at": "2026-04-09T06:24:44Z",
+  "generated_date": "09. april 2026",
   "threat_level": {
     "level": "High",
     "color": "#A32D2D"
@@ -12,22 +12,22 @@
       "label": "Pengepolitikk"
     },
     "handel_sanksjoner": {
-      "count": 2,
+      "count": 1,
       "color": "#A32D2D",
       "label": "Handel / Sanksjoner"
     },
     "energi_ravarer": {
-      "count": 1,
+      "count": 0,
       "color": "#639922",
       "label": "Energi / Ravarer"
     },
     "konflikter": {
-      "count": 9,
+      "count": 6,
       "color": "#D85A30",
       "label": "Konflikter"
     },
     "valg_maktskifter": {
-      "count": 6,
+      "count": 4,
       "color": "#7F77DD",
       "label": "Valg / Maktskifter"
     },
@@ -39,24 +39,89 @@
   },
   "articles": [
     {
-      "id": "c4d5480fd7c0",
-      "title": "Oil prices plunge and shares jump on US-Iran ceasefire plan",
-      "description": "Crude prices tumbled by as much as 15% on the conditional pause but remain far higher than before the war.",
-      "link": "https://www.bbc.com/news/articles/c8r40y3rv75o?at_medium=RSS&at_campaign=rss",
-      "score": 7.7,
+      "id": "b327d3fdadcc",
+      "title": "Trump administration signals it is mulling NATO withdrawal after Iran war",
+      "description": "The US president has lashed out at European partners for declining to contribute military forces to the war on Iran.",
+      "link": "https://www.aljazeera.com/news/2026/4/8/trump-administration-says-it-is-mulling-nato-withdrawal-after-iran-war?traffic_source=rss",
+      "score": 6.0,
+      "source_count": 1,
+      "source_names": [
+        "aljazeera"
+      ],
+      "tracks": [
+        {
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 3
+        },
+        {
+          "name": "valg_maktskifter",
+          "color": "#7F77DD",
+          "hits": 2
+        }
+      ]
+    },
+    {
+      "id": "4e6af7c2c372",
+      "title": "Prosecutors seek Tiger Woods' prescription drug records after Florida arrest",
+      "description": "A legal order seeking the golfer's medications - including dosage and warnings about driving on pill bottles - will be issued later this month, court record shows.",
+      "link": "https://www.bbc.com/news/articles/c77mz26ed80o?at_medium=RSS&at_campaign=rss",
+      "score": 5.6,
+      "source_count": 2,
+      "source_names": [
+        "aljazeera",
+        "bbc_world"
+      ],
+      "tracks": [
+        {
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 1
+        }
+      ]
+    },
+    {
+      "id": "319b145999b3",
+      "title": "Trump criticises Nato as alliance chief describes meeting as 'very frank'",
+      "description": "The US president says Nato \"wasn't there when we needed them\" during the Iran war.",
+      "link": "https://www.bbc.com/news/articles/c05d8j9r5ejo?at_medium=RSS&at_campaign=rss",
+      "score": 5.2,
       "source_count": 1,
       "source_names": [
         "bbc_world"
       ],
       "tracks": [
         {
-          "name": "energi_ravarer",
-          "color": "#639922",
+          "name": "konflikter",
+          "color": "#D85A30",
           "hits": 2
         },
         {
+          "name": "valg_maktskifter",
+          "color": "#7F77DD",
+          "hits": 2
+        }
+      ]
+    },
+    {
+      "id": "a13a2bb772d9",
+      "title": "Trump slams NATO over Iran after meeting Rutte, renews Greenland threat",
+      "description": "US president meets NATO chief, expresses disappointment over member states failing to back war on Iran.",
+      "link": "https://www.aljazeera.com/news/2026/4/9/trump-slams-nato-over-iran-after-meeting-rutte-renews-greenland-threat?traffic_source=rss",
+      "score": 5.2,
+      "source_count": 1,
+      "source_names": [
+        "aljazeera"
+      ],
+      "tracks": [
+        {
           "name": "konflikter",
           "color": "#D85A30",
+          "hits": 2
+        },
+        {
+          "name": "valg_maktskifter",
+          "color": "#7F77DD",
           "hits": 2
         }
       ]
@@ -66,7 +131,7 @@
       "title": "China tries shock-and-awe on Donald Trump",
       "description": "Xi Jinping’s bet that dramatic escalation is the way to win a trade war",
       "link": "https://www.economist.com/international/2025/10/12/china-tries-shock-and-awe-on-donald-trump",
-      "score": 7.0,
+      "score": 5.0,
       "source_count": 1,
       "source_names": [
         "economist_intl"
@@ -89,7 +154,7 @@
       "title": "A UN vote on Palestine underlines America’s weakening clout",
       "description": "Russia and China are riding a surge of support for the Palestinians since the Gaza war started",
       "link": "https://www.economist.com/international/2024/09/18/a-un-vote-on-palestine-underlines-americas-weakening-clout",
-      "score": 7.0,
+      "score": 5.0,
       "source_count": 1,
       "source_names": [
         "economist_intl"
@@ -104,165 +169,14 @@
           "name": "valg_maktskifter",
           "color": "#7F77DD",
           "hits": 1
-        }
-      ]
-    },
-    {
-      "id": "f532575a449e",
-      "title": "The world faces its worst trade wars since the 1930s",
-      "description": "Donald Trump’s re-election accelerates a crisis for globalisation",
-      "link": "https://www.economist.com/international/2024/11/07/the-world-faces-its-worst-trade-wars-since-the-1930s",
-      "score": 6.8,
-      "source_count": 1,
-      "source_names": [
-        "economist_intl"
-      ],
-      "tracks": [
-        {
-          "name": "handel_sanksjoner",
-          "color": "#A32D2D",
-          "hits": 1
-        },
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 1
-        },
-        {
-          "name": "valg_maktskifter",
-          "color": "#7F77DD",
-          "hits": 1
-        }
-      ]
-    },
-    {
-      "id": "f9901145b0c6",
-      "title": "The three steps on America’s ladder of military escalation",
-      "description": "Could America be dragged back into another Middle East war?",
-      "link": "https://www.economist.com/international/2023/10/25/the-three-steps-on-americas-ladder-of-military-escalation",
-      "score": 6.8,
-      "source_count": 1,
-      "source_names": [
-        "economist_intl"
-      ],
-      "tracks": [
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 3
-        }
-      ]
-    },
-    {
-      "id": "3ed31bc1b432",
-      "title": "Iran hevdar Trump trugar med krigs­brotsverk",
-      "description": "Trump sin tidsfrist til Iran med å opne Hormuzsundet er i ferd med å gå ut. Presidenten sine trugslar om maktbruk har vekt sterke reaksjonar.",
-      "link": "https://www.nrk.no/urix/reaksjonar-pa-trump-sine-trugslar-mot-iran-1.17836017",
-      "score": 6.8,
-      "source_count": 1,
-      "source_names": [
-        "nrk_urix"
-      ],
-      "tracks": [
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 1
-        },
-        {
-          "name": "valg_maktskifter",
-          "color": "#7F77DD",
-          "hits": 2
-        }
-      ]
-    },
-    {
-      "id": "97053b00c87e",
-      "title": "Støre om Trumps Iran-utspill: – Dette er en egen kategori",
-      "description": "Tirsdag ettermiddag sa USAs president Donald Trump at «en hel sivilisasjon vil dø i natt, for aldri å vende tilbake»\n– Dette er en egen kategori, sier statsminister Jonas Gahr Støre (Ap) til NRK på spørsmål om hva han synes om Trumps utspill.\nStøre er klar på at konflikten i Midtøsten ikke kan lø...",
-      "link": "https://www.nrk.no/nyheter/store-om-trumps-iran-utspill_-_-dette-er-en-egen-kategori-1.17837464",
-      "score": 6.7,
-      "source_count": 1,
-      "source_names": [
-        "nrk_urix"
-      ],
-      "tracks": [
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 1
-        },
-        {
-          "name": "valg_maktskifter",
-          "color": "#7F77DD",
-          "hits": 3
-        }
-      ]
-    },
-    {
-      "id": "fe8264552797",
-      "title": "French couple leave Iran after more than three years in jail",
-      "description": "Cecile Kohler and Jacques Paris are on their way home after being allowed to leave the country, the French president says.",
-      "link": "https://www.bbc.com/news/articles/clyxk5640wko?at_medium=RSS&at_campaign=rss",
-      "score": 6.5,
-      "source_count": 1,
-      "source_names": [
-        "bbc_world"
-      ],
-      "tracks": [
-        {
-          "name": "valg_maktskifter",
-          "color": "#7F77DD",
-          "hits": 3
-        }
-      ]
-    },
-    {
-      "id": "9e7c934d0035",
-      "title": "Rutte’s ‘Daddy’ strategy under strain as Nato head meets Trump",
-      "description": "Also in this newsletter: Italy walks an Iran tightrope with the US president",
-      "link": "https://www.ft.com/content/b7a69253-13e5-44f0-9537-c30220d5cc40",
-      "score": 6.5,
-      "source_count": 1,
-      "source_names": [
-        "ft_world"
-      ],
-      "tracks": [
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 1
-        },
-        {
-          "name": "valg_maktskifter",
-          "color": "#7F77DD",
-          "hits": 2
-        }
-      ]
-    },
-    {
-      "id": "baeb5751ba07",
-      "title": "The War Room newsletter: Did a Russian weapon spook Trump?",
-      "description": "Shashank Joshi, our defence editor, talks missile protection—in Yorkshire",
-      "link": "https://www.economist.com/international/2025/11/03/the-war-room-newsletter-did-a-russian-weapon-spook-trump",
-      "score": 6.5,
-      "source_count": 1,
-      "source_names": [
-        "economist_intl"
-      ],
-      "tracks": [
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 2
         }
       ]
     }
   ],
   "stats": {
-    "total_fetched": 485,
+    "total_fetched": 487,
     "after_dedup": 467,
-    "above_threshold": 168,
-    "published": 10
+    "above_threshold": 6,
+    "published": 6
   }
 }
