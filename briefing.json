@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-09T06:24:44Z",
-  "generated_date": "09. april 2026",
+  "generated_at": "2026-04-10T06:55:32Z",
+  "generated_date": "10. april 2026",
   "threat_level": {
     "level": "High",
     "color": "#A32D2D"
@@ -22,12 +22,12 @@
       "label": "Energi / Ravarer"
     },
     "konflikter": {
-      "count": 6,
+      "count": 5,
       "color": "#D85A30",
       "label": "Konflikter"
     },
     "valg_maktskifter": {
-      "count": 4,
+      "count": 3,
       "color": "#7F77DD",
       "label": "Valg / Maktskifter"
     },
@@ -39,44 +39,20 @@
   },
   "articles": [
     {
-      "id": "b327d3fdadcc",
-      "title": "Trump administration signals it is mulling NATO withdrawal after Iran war",
-      "description": "The US president has lashed out at European partners for declining to contribute military forces to the war on Iran.",
-      "link": "https://www.aljazeera.com/news/2026/4/8/trump-administration-says-it-is-mulling-nato-withdrawal-after-iran-war?traffic_source=rss",
-      "score": 6.0,
+      "id": "b7291353c6c8",
+      "title": "FirstFT: Nato split over US access to European bases in Iran war",
+      "description": "Donald Trump irate at France and Spain’s refusal to authorise use of military facilities",
+      "link": "https://www.ft.com/content/88a8cc1d-40ba-404e-8808-68d34f62ae88",
+      "score": 5.3,
       "source_count": 1,
       "source_names": [
-        "aljazeera"
+        "ft_world"
       ],
       "tracks": [
         {
           "name": "konflikter",
           "color": "#D85A30",
           "hits": 3
-        },
-        {
-          "name": "valg_maktskifter",
-          "color": "#7F77DD",
-          "hits": 2
-        }
-      ]
-    },
-    {
-      "id": "4e6af7c2c372",
-      "title": "Prosecutors seek Tiger Woods' prescription drug records after Florida arrest",
-      "description": "A legal order seeking the golfer's medications - including dosage and warnings about driving on pill bottles - will be issued later this month, court record shows.",
-      "link": "https://www.bbc.com/news/articles/c77mz26ed80o?at_medium=RSS&at_campaign=rss",
-      "score": 5.6,
-      "source_count": 2,
-      "source_names": [
-        "aljazeera",
-        "bbc_world"
-      ],
-      "tracks": [
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 1
         }
       ]
     },
@@ -104,11 +80,11 @@
       ]
     },
     {
-      "id": "a13a2bb772d9",
-      "title": "Trump slams NATO over Iran after meeting Rutte, renews Greenland threat",
-      "description": "US president meets NATO chief, expresses disappointment over member states failing to back war on Iran.",
-      "link": "https://www.aljazeera.com/news/2026/4/9/trump-slams-nato-over-iran-after-meeting-rutte-renews-greenland-threat?traffic_source=rss",
-      "score": 5.2,
+      "id": "4616f3033587",
+      "title": "Iran war live: Israeli attacks on Lebanon threaten US-Iran ceasefire talks",
+      "description": "Iran’s parliament speaker Mohammad Bagher Ghalibaf warns ‘time is running out’ amid Israel’s attacks on Lebanon.",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/4/10/iran-war-live-israeli-attacks-on-lebanon-threaten-us-iran-ceasefire-talks?traffic_source=rss",
+      "score": 5.0,
       "source_count": 1,
       "source_names": [
         "aljazeera"
@@ -122,7 +98,7 @@
         {
           "name": "valg_maktskifter",
           "color": "#7F77DD",
-          "hits": 2
+          "hits": 1
         }
       ]
     },
@@ -175,8 +151,8 @@
   ],
   "stats": {
     "total_fetched": 487,
-    "after_dedup": 467,
-    "above_threshold": 6,
-    "published": 6
+    "after_dedup": 465,
+    "above_threshold": 5,
+    "published": 5
   }
 }
