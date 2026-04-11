@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-04-10T06:55:32Z",
-  "generated_date": "10. april 2026",
+  "generated_at": "2026-04-11T06:04:53Z",
+  "generated_date": "11. april 2026",
   "threat_level": {
     "level": "High",
     "color": "#A32D2D"
   },
   "track_summary": {
     "pengepolitikk": {
-      "count": 0,
+      "count": 1,
       "color": "#185FA5",
       "label": "Pengepolitikk"
     },
@@ -22,12 +22,12 @@
       "label": "Energi / Ravarer"
     },
     "konflikter": {
-      "count": 5,
+      "count": 3,
       "color": "#D85A30",
       "label": "Konflikter"
     },
     "valg_maktskifter": {
-      "count": 3,
+      "count": 2,
       "color": "#7F77DD",
       "label": "Valg / Maktskifter"
     },
@@ -39,66 +39,30 @@
   },
   "articles": [
     {
-      "id": "b7291353c6c8",
-      "title": "FirstFT: Nato split over US access to European bases in Iran war",
-      "description": "Donald Trump irate at France and Spain’s refusal to authorise use of military facilities",
-      "link": "https://www.ft.com/content/88a8cc1d-40ba-404e-8808-68d34f62ae88",
-      "score": 5.3,
+      "id": "1a538fd0091e",
+      "title": "Warsh’s confirmation as Trump’s next Fed chair risks delay",
+      "description": "Sluggish process could leave Jay Powell at helm of central bank despite US president’s push for policy reset",
+      "link": "https://www.ft.com/content/5a078a3a-9580-47c1-9cb3-8c657457896d",
+      "score": 5.5,
       "source_count": 1,
       "source_names": [
         "ft_world"
       ],
       "tracks": [
         {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 3
-        }
-      ]
-    },
-    {
-      "id": "319b145999b3",
-      "title": "Trump criticises Nato as alliance chief describes meeting as 'very frank'",
-      "description": "The US president says Nato \"wasn't there when we needed them\" during the Iran war.",
-      "link": "https://www.bbc.com/news/articles/c05d8j9r5ejo?at_medium=RSS&at_campaign=rss",
-      "score": 5.2,
-      "source_count": 1,
-      "source_names": [
-        "bbc_world"
-      ],
-      "tracks": [
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
+          "name": "pengepolitikk",
+          "color": "#185FA5",
           "hits": 2
         },
         {
-          "name": "valg_maktskifter",
-          "color": "#7F77DD",
-          "hits": 2
-        }
-      ]
-    },
-    {
-      "id": "4616f3033587",
-      "title": "Iran war live: Israeli attacks on Lebanon threaten US-Iran ceasefire talks",
-      "description": "Iran’s parliament speaker Mohammad Bagher Ghalibaf warns ‘time is running out’ amid Israel’s attacks on Lebanon.",
-      "link": "https://www.aljazeera.com/news/liveblog/2026/4/10/iran-war-live-israeli-attacks-on-lebanon-threaten-us-iran-ceasefire-talks?traffic_source=rss",
-      "score": 5.0,
-      "source_count": 1,
-      "source_names": [
-        "aljazeera"
-      ],
-      "tracks": [
-        {
           "name": "konflikter",
           "color": "#D85A30",
-          "hits": 2
-        },
-        {
-          "name": "valg_maktskifter",
-          "color": "#7F77DD",
           "hits": 1
+        },
+        {
+          "name": "valg_maktskifter",
+          "color": "#7F77DD",
+          "hits": 2
         }
       ]
     },
@@ -150,9 +114,9 @@
     }
   ],
   "stats": {
-    "total_fetched": 487,
-    "after_dedup": 465,
-    "above_threshold": 5,
-    "published": 5
+    "total_fetched": 474,
+    "after_dedup": 454,
+    "above_threshold": 3,
+    "published": 3
   }
 }
