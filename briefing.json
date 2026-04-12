@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-04-11T06:04:53Z",
-  "generated_date": "11. april 2026",
+  "generated_at": "2026-04-12T06:25:14Z",
+  "generated_date": "12. april 2026",
   "threat_level": {
     "level": "High",
     "color": "#A32D2D"
   },
   "track_summary": {
     "pengepolitikk": {
-      "count": 1,
+      "count": 0,
       "color": "#185FA5",
       "label": "Pengepolitikk"
     },
@@ -17,12 +17,12 @@
       "label": "Handel / Sanksjoner"
     },
     "energi_ravarer": {
-      "count": 0,
+      "count": 1,
       "color": "#639922",
       "label": "Energi / Ravarer"
     },
     "konflikter": {
-      "count": 3,
+      "count": 4,
       "color": "#D85A30",
       "label": "Konflikter"
     },
@@ -39,30 +39,63 @@
   },
   "articles": [
     {
-      "id": "1a538fd0091e",
-      "title": "Warsh’s confirmation as Trump’s next Fed chair risks delay",
-      "description": "Sluggish process could leave Jay Powell at helm of central bank despite US president’s push for policy reset",
-      "link": "https://www.ft.com/content/5a078a3a-9580-47c1-9cb3-8c657457896d",
-      "score": 5.5,
+      "id": "856a7020dd38",
+      "title": "US and Iran locked in marathon talks to end war",
+      "description": "Historic negotiations aim to end a widening conflict that has stoked a global energy crisis",
+      "link": "https://www.ft.com/content/7f9e1e4b-b3d4-4fcb-9053-2d6ae2f33d53",
+      "score": 5.3,
       "source_count": 1,
       "source_names": [
         "ft_world"
       ],
       "tracks": [
         {
-          "name": "pengepolitikk",
-          "color": "#185FA5",
-          "hits": 2
+          "name": "energi_ravarer",
+          "color": "#639922",
+          "hits": 1
         },
         {
           "name": "konflikter",
           "color": "#D85A30",
-          "hits": 1
-        },
+          "hits": 2
+        }
+      ]
+    },
+    {
+      "id": "5c95aecdc35a",
+      "title": "US and Iran fail to reach peace deal after marathon talks in Pakistan",
+      "description": "Vice President JD Vance says Iran chose not to accept US terms, while Iran says it did not expect a deal at the first meeting.",
+      "link": "https://www.aljazeera.com/news/2026/4/12/us-and-iran-fail-to-reach-peace-deal-after-marathon-talks-in-pakistan?traffic_source=rss",
+      "score": 5.2,
+      "source_count": 2,
+      "source_names": [
+        "aljazeera",
+        "ft_world"
+      ],
+      "tracks": [
         {
           "name": "valg_maktskifter",
           "color": "#7F77DD",
           "hits": 2
+        }
+      ]
+    },
+    {
+      "id": "fa4ea66db03c",
+      "title": "Iran war live: Vance says no deal reached, US has made ‘best, final offer’",
+      "description": "Iranian media say the US was looking for an excuse to leave the talks and that the 'ball is in America's court'.",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/4/12/iran-war-live-historic-face-to-face-talks-with-us-continue-in-islamabad?traffic_source=rss",
+      "score": 5.1,
+      "source_count": 2,
+      "source_names": [
+        "aljazeera",
+        "ft_world"
+      ],
+      "tracks": [
+        {
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 1
         }
       ]
     },
@@ -115,8 +148,8 @@
   ],
   "stats": {
     "total_fetched": 474,
-    "after_dedup": 454,
-    "above_threshold": 3,
-    "published": 3
+    "after_dedup": 455,
+    "above_threshold": 5,
+    "published": 5
   }
 }
