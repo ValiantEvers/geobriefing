@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-12T06:25:14Z",
-  "generated_date": "12. april 2026",
+  "generated_at": "2026-04-13T07:18:32Z",
+  "generated_date": "13. april 2026",
   "threat_level": {
     "level": "High",
     "color": "#A32D2D"
@@ -22,7 +22,7 @@
       "label": "Energi / Ravarer"
     },
     "konflikter": {
-      "count": 4,
+      "count": 3,
       "color": "#D85A30",
       "label": "Konflikter"
     },
@@ -39,63 +39,44 @@
   },
   "articles": [
     {
-      "id": "856a7020dd38",
-      "title": "US and Iran locked in marathon talks to end war",
-      "description": "Historic negotiations aim to end a widening conflict that has stoked a global energy crisis",
-      "link": "https://www.ft.com/content/7f9e1e4b-b3d4-4fcb-9053-2d6ae2f33d53",
+      "id": "7f647b099bfe",
+      "title": "Oil prices surge past $103 a barrel after US announces blockade of Iran",
+      "description": "Asian stocks fall as naval blockade threat injects new turmoil into financial markets.",
+      "link": "https://www.aljazeera.com/economy/2026/4/13/oil-prices-surge-past-103-a-barrel-after-us-announces-blockade-of-iran?traffic_source=rss",
       "score": 5.3,
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
-        "ft_world"
+        "GDELT",
+        "aljazeera"
       ],
       "tracks": [
         {
           "name": "energi_ravarer",
           "color": "#639922",
           "hits": 1
-        },
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 2
         }
       ]
     },
     {
-      "id": "5c95aecdc35a",
-      "title": "US and Iran fail to reach peace deal after marathon talks in Pakistan",
-      "description": "Vice President JD Vance says Iran chose not to accept US terms, while Iran says it did not expect a deal at the first meeting.",
-      "link": "https://www.aljazeera.com/news/2026/4/12/us-and-iran-fail-to-reach-peace-deal-after-marathon-talks-in-pakistan?traffic_source=rss",
-      "score": 5.2,
-      "source_count": 2,
+      "id": "a7c2f933f73a",
+      "title": "Ukraine and Russia accuse each other of hundreds of ceasefire violations",
+      "description": "Ukrainian President Volodymyr Zelensky says his nation's forces would respond \"symmetrically\" to Russian attacks.",
+      "link": "https://www.bbc.com/news/articles/cz78y73v830o?at_medium=RSS&at_campaign=rss",
+      "score": 5.0,
+      "source_count": 1,
       "source_names": [
-        "aljazeera",
-        "ft_world"
-      ],
-      "tracks": [
-        {
-          "name": "valg_maktskifter",
-          "color": "#7F77DD",
-          "hits": 2
-        }
-      ]
-    },
-    {
-      "id": "fa4ea66db03c",
-      "title": "Iran war live: Vance says no deal reached, US has made ‘best, final offer’",
-      "description": "Iranian media say the US was looking for an excuse to leave the talks and that the 'ball is in America's court'.",
-      "link": "https://www.aljazeera.com/news/liveblog/2026/4/12/iran-war-live-historic-face-to-face-talks-with-us-continue-in-islamabad?traffic_source=rss",
-      "score": 5.1,
-      "source_count": 2,
-      "source_names": [
-        "aljazeera",
-        "ft_world"
+        "bbc_world"
       ],
       "tracks": [
         {
           "name": "konflikter",
           "color": "#D85A30",
           "hits": 1
+        },
+        {
+          "name": "valg_maktskifter",
+          "color": "#7F77DD",
+          "hits": 2
         }
       ]
     },
@@ -147,9 +128,9 @@
     }
   ],
   "stats": {
-    "total_fetched": 474,
-    "after_dedup": 455,
-    "above_threshold": 5,
-    "published": 5
+    "total_fetched": 524,
+    "after_dedup": 499,
+    "above_threshold": 4,
+    "published": 4
   }
 }
