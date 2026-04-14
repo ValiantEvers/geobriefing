@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-13T07:18:32Z",
-  "generated_date": "13. april 2026",
+  "generated_at": "2026-04-14T06:55:26Z",
+  "generated_date": "14. april 2026",
   "threat_level": {
     "level": "High",
     "color": "#A32D2D"
@@ -17,7 +17,7 @@
       "label": "Handel / Sanksjoner"
     },
     "energi_ravarer": {
-      "count": 1,
+      "count": 0,
       "color": "#639922",
       "label": "Energi / Ravarer"
     },
@@ -38,48 +38,6 @@
     }
   },
   "articles": [
-    {
-      "id": "7f647b099bfe",
-      "title": "Oil prices surge past $103 a barrel after US announces blockade of Iran",
-      "description": "Asian stocks fall as naval blockade threat injects new turmoil into financial markets.",
-      "link": "https://www.aljazeera.com/economy/2026/4/13/oil-prices-surge-past-103-a-barrel-after-us-announces-blockade-of-iran?traffic_source=rss",
-      "score": 5.3,
-      "source_count": 2,
-      "source_names": [
-        "GDELT",
-        "aljazeera"
-      ],
-      "tracks": [
-        {
-          "name": "energi_ravarer",
-          "color": "#639922",
-          "hits": 1
-        }
-      ]
-    },
-    {
-      "id": "a7c2f933f73a",
-      "title": "Ukraine and Russia accuse each other of hundreds of ceasefire violations",
-      "description": "Ukrainian President Volodymyr Zelensky says his nation's forces would respond \"symmetrically\" to Russian attacks.",
-      "link": "https://www.bbc.com/news/articles/cz78y73v830o?at_medium=RSS&at_campaign=rss",
-      "score": 5.0,
-      "source_count": 1,
-      "source_names": [
-        "bbc_world"
-      ],
-      "tracks": [
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 1
-        },
-        {
-          "name": "valg_maktskifter",
-          "color": "#7F77DD",
-          "hits": 2
-        }
-      ]
-    },
     {
       "id": "466740661a3c",
       "title": "China tries shock-and-awe on Donald Trump",
@@ -125,12 +83,35 @@
           "hits": 1
         }
       ]
+    },
+    {
+      "id": "ed4c0af3a110",
+      "title": "Kreml: Respekterer Ungarns valg",
+      "description": "Russiske myndigheter uttaler mandag at de respekterer det ungarske folkets valg, og håper på et fortsatt «pragmatisk» samarbeid med landets nye lederskap under Peter Magyar.\nKreml avviser samtidig at regjeringsskiftet i Ungarn vil påvirke krigen i Ukraina, og kaller EUs økonomiske støtte til Ukra...",
+      "link": "https://www.nrk.no/nyheter/kreml_-respekterer-ungarns-valg-1.17844661",
+      "score": 5.0,
+      "source_count": 1,
+      "source_names": [
+        "nrk_urix"
+      ],
+      "tracks": [
+        {
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 1
+        },
+        {
+          "name": "valg_maktskifter",
+          "color": "#7F77DD",
+          "hits": 2
+        }
+      ]
     }
   ],
   "stats": {
-    "total_fetched": 524,
-    "after_dedup": 499,
-    "above_threshold": 4,
-    "published": 4
+    "total_fetched": 487,
+    "after_dedup": 464,
+    "above_threshold": 3,
+    "published": 3
   }
 }
