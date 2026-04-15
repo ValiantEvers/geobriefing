@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-14T06:55:26Z",
-  "generated_date": "14. april 2026",
+  "generated_at": "2026-04-15T06:57:05Z",
+  "generated_date": "15. april 2026",
   "threat_level": {
     "level": "High",
     "color": "#A32D2D"
@@ -109,8 +109,8 @@
     }
   ],
   "stats": {
-    "total_fetched": 487,
-    "after_dedup": 464,
+    "total_fetched": 546,
+    "after_dedup": 519,
     "above_threshold": 3,
     "published": 3
   }
