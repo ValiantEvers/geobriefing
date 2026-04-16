@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-04-15T06:57:05Z",
-  "generated_date": "15. april 2026",
+  "generated_at": "2026-04-16T06:59:24Z",
+  "generated_date": "16. april 2026",
   "threat_level": {
     "level": "High",
     "color": "#A32D2D"
   },
   "track_summary": {
     "pengepolitikk": {
-      "count": 0,
+      "count": 1,
       "color": "#185FA5",
       "label": "Pengepolitikk"
     },
     "handel_sanksjoner": {
-      "count": 1,
+      "count": 2,
       "color": "#A32D2D",
       "label": "Handel / Sanksjoner"
     },
@@ -22,12 +22,12 @@
       "label": "Energi / Ravarer"
     },
     "konflikter": {
-      "count": 3,
+      "count": 4,
       "color": "#D85A30",
       "label": "Konflikter"
     },
     "valg_maktskifter": {
-      "count": 2,
+      "count": 3,
       "color": "#7F77DD",
       "label": "Valg / Maktskifter"
     },
@@ -38,6 +38,62 @@
     }
   },
   "articles": [
+    {
+      "id": "09fcb35ea8d8",
+      "title": "Can Trump unseat Powell as Fed chair?",
+      "description": "President has said he will seek to fire the head of the central bank if Kevin Warsh is not confirmed before May 15",
+      "link": "https://www.ft.com/content/07476cf0-7dbf-43a1-b29c-1c0c75783518",
+      "score": 5.8,
+      "source_count": 1,
+      "source_names": [
+        "ft_world"
+      ],
+      "tracks": [
+        {
+          "name": "pengepolitikk",
+          "color": "#185FA5",
+          "hits": 2
+        },
+        {
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 1
+        },
+        {
+          "name": "valg_maktskifter",
+          "color": "#7F77DD",
+          "hits": 2
+        }
+      ]
+    },
+    {
+      "id": "1c268705ce94",
+      "title": "Starmer says he's 'not going to yield' to pressure from Trump on Iran war",
+      "description": "It follows a warning from the US president that America's trade deal with the UK \"can always be changed\".",
+      "link": "https://www.bbc.com/news/articles/cdxdd7ddzgdo?at_medium=RSS&at_campaign=rss",
+      "score": 5.2,
+      "source_count": 1,
+      "source_names": [
+        "bbc_world"
+      ],
+      "tracks": [
+        {
+          "name": "handel_sanksjoner",
+          "color": "#A32D2D",
+          "hits": 1
+        },
+        {
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 1
+        },
+        {
+          "name": "valg_maktskifter",
+          "color": "#7F77DD",
+          "hits": 2
+        }
+      ]
+    },
     {
       "id": "466740661a3c",
       "title": "China tries shock-and-awe on Donald Trump",
@@ -83,35 +139,12 @@
           "hits": 1
         }
       ]
-    },
-    {
-      "id": "ed4c0af3a110",
-      "title": "Kreml: Respekterer Ungarns valg",
-      "description": "Russiske myndigheter uttaler mandag at de respekterer det ungarske folkets valg, og håper på et fortsatt «pragmatisk» samarbeid med landets nye lederskap under Peter Magyar.\nKreml avviser samtidig at regjeringsskiftet i Ungarn vil påvirke krigen i Ukraina, og kaller EUs økonomiske støtte til Ukra...",
-      "link": "https://www.nrk.no/nyheter/kreml_-respekterer-ungarns-valg-1.17844661",
-      "score": 5.0,
-      "source_count": 1,
-      "source_names": [
-        "nrk_urix"
-      ],
-      "tracks": [
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 1
-        },
-        {
-          "name": "valg_maktskifter",
-          "color": "#7F77DD",
-          "hits": 2
-        }
-      ]
     }
   ],
   "stats": {
-    "total_fetched": 546,
-    "after_dedup": 519,
-    "above_threshold": 3,
-    "published": 3
+    "total_fetched": 494,
+    "after_dedup": 473,
+    "above_threshold": 4,
+    "published": 4
   }
 }
