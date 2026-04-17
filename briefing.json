@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-04-16T06:59:24Z",
-  "generated_date": "16. april 2026",
+  "generated_at": "2026-04-17T06:59:57Z",
+  "generated_date": "17. april 2026",
   "threat_level": {
     "level": "High",
     "color": "#A32D2D"
   },
   "track_summary": {
     "pengepolitikk": {
-      "count": 1,
+      "count": 0,
       "color": "#185FA5",
       "label": "Pengepolitikk"
     },
@@ -27,7 +27,7 @@
       "label": "Konflikter"
     },
     "valg_maktskifter": {
-      "count": 3,
+      "count": 2,
       "color": "#7F77DD",
       "label": "Valg / Maktskifter"
     },
@@ -39,42 +39,14 @@
   },
   "articles": [
     {
-      "id": "09fcb35ea8d8",
-      "title": "Can Trump unseat Powell as Fed chair?",
-      "description": "President has said he will seek to fire the head of the central bank if Kevin Warsh is not confirmed before May 15",
-      "link": "https://www.ft.com/content/07476cf0-7dbf-43a1-b29c-1c0c75783518",
-      "score": 5.8,
+      "id": "3a4f8282539e",
+      "title": "Iran war live: Ceasefire starts in Lebanon as Trump says Tehran deal close",
+      "description": "Death toll from Israeli attacks on Lebanon reached 2,196 on Thursday as 10-day ceasefire announced.",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/4/17/iran-war-live-ceasefire-starts-in-lebanon-as-trump-says-tehran-deal-close?traffic_source=rss",
+      "score": 5.0,
       "source_count": 1,
       "source_names": [
-        "ft_world"
-      ],
-      "tracks": [
-        {
-          "name": "pengepolitikk",
-          "color": "#185FA5",
-          "hits": 2
-        },
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 1
-        },
-        {
-          "name": "valg_maktskifter",
-          "color": "#7F77DD",
-          "hits": 2
-        }
-      ]
-    },
-    {
-      "id": "1c268705ce94",
-      "title": "Starmer says he's 'not going to yield' to pressure from Trump on Iran war",
-      "description": "It follows a warning from the US president that America's trade deal with the UK \"can always be changed\".",
-      "link": "https://www.bbc.com/news/articles/cdxdd7ddzgdo?at_medium=RSS&at_campaign=rss",
-      "score": 5.2,
-      "source_count": 1,
-      "source_names": [
-        "bbc_world"
+        "aljazeera"
       ],
       "tracks": [
         {
@@ -85,11 +57,6 @@
         {
           "name": "konflikter",
           "color": "#D85A30",
-          "hits": 1
-        },
-        {
-          "name": "valg_maktskifter",
-          "color": "#7F77DD",
           "hits": 2
         }
       ]
@@ -139,11 +106,34 @@
           "hits": 1
         }
       ]
+    },
+    {
+      "id": "4a98a1cd49bb",
+      "title": "Store angrep mot Ukraina i natt: – Viser at Russland satser på krig",
+      "description": "Nattens angrepsbølge mot Ukraina har kostet mange liv. President Volodymyr Zelenskyj sier det viser at Russland vil ha krig fremfor fred.",
+      "link": "https://www.nrk.no/urix/flere-angrep-mot-ukraina-i-natt-_-mange-drepte-1.17848902",
+      "score": 5.0,
+      "source_count": 1,
+      "source_names": [
+        "nrk_urix"
+      ],
+      "tracks": [
+        {
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 1
+        },
+        {
+          "name": "valg_maktskifter",
+          "color": "#7F77DD",
+          "hits": 2
+        }
+      ]
     }
   ],
   "stats": {
-    "total_fetched": 494,
-    "after_dedup": 473,
+    "total_fetched": 477,
+    "after_dedup": 458,
     "above_threshold": 4,
     "published": 4
   }
