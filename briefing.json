@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-18T06:15:46Z",
-  "generated_date": "18. april 2026",
+  "generated_at": "2026-04-19T06:49:18Z",
+  "generated_date": "19. april 2026",
   "threat_level": {
     "level": "High",
     "color": "#A32D2D"
@@ -17,7 +17,7 @@
       "label": "Handel / Sanksjoner"
     },
     "energi_ravarer": {
-      "count": 1,
+      "count": 0,
       "color": "#639922",
       "label": "Energi / Ravarer"
     },
@@ -27,7 +27,7 @@
       "label": "Konflikter"
     },
     "valg_maktskifter": {
-      "count": 2,
+      "count": 3,
       "color": "#7F77DD",
       "label": "Valg / Maktskifter"
     },
@@ -39,26 +39,48 @@
   },
   "articles": [
     {
-      "id": "448b5aa8ea84",
-      "title": "Oil prices plunge as Iran says Strait 'open'",
-      "description": "Brent crude sinks by a tenth after Iran says the key waterway is open for commercial ships for the rest of the ceasefire.",
-      "link": "https://www.bbc.com/news/articles/ckg045z73z1o?at_medium=RSS&at_campaign=rss",
-      "score": 7.2,
-      "source_count": 2,
+      "id": "6da5d21837ee",
+      "title": "Chernobyl's last wedding: The couple who married as a nuclear disaster unfolded",
+      "description": "Serhiy and Iryna married 40 years ago, unaware a nuclear reactor had exploded less than 3 miles away.",
+      "link": "https://www.bbc.com/news/articles/c0q92lx8q75o?at_medium=RSS&at_campaign=rss",
+      "score": 5.5,
+      "source_count": 1,
       "source_names": [
-        "bbc_world",
+        "bbc_world"
+      ],
+      "tracks": [
+        {
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 2
+        },
+        {
+          "name": "valg_maktskifter",
+          "color": "#7F77DD",
+          "hits": 1
+        }
+      ]
+    },
+    {
+      "id": "1979fc8a5e27",
+      "title": "Can Trump finally make a nuclear deal with Iran?",
+      "description": "After going to war twice, the US president is again trying to strike a deal on the regime’s uranium enrichment programme",
+      "link": "https://www.ft.com/content/7a06181a-310f-4ccb-98e8-3e5c920141d4",
+      "score": 5.4,
+      "source_count": 1,
+      "source_names": [
         "ft_world"
       ],
       "tracks": [
         {
-          "name": "energi_ravarer",
-          "color": "#639922",
-          "hits": 3
-        },
-        {
           "name": "konflikter",
           "color": "#D85A30",
-          "hits": 1
+          "hits": 2
+        },
+        {
+          "name": "valg_maktskifter",
+          "color": "#7F77DD",
+          "hits": 2
         }
       ]
     },
@@ -107,34 +129,11 @@
           "hits": 1
         }
       ]
-    },
-    {
-      "id": "4a98a1cd49bb",
-      "title": "Store angrep mot Ukraina i natt: – Viser at Russland satser på krig",
-      "description": "Nattens angrepsbølge mot Ukraina har kostet mange liv. President Volodymyr Zelenskyj sier det viser at Russland vil ha krig fremfor fred.",
-      "link": "https://www.nrk.no/urix/flere-angrep-mot-ukraina-i-natt-_-mange-drepte-1.17848902",
-      "score": 5.0,
-      "source_count": 1,
-      "source_names": [
-        "nrk_urix"
-      ],
-      "tracks": [
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 1
-        },
-        {
-          "name": "valg_maktskifter",
-          "color": "#7F77DD",
-          "hits": 2
-        }
-      ]
     }
   ],
   "stats": {
-    "total_fetched": 481,
-    "after_dedup": 461,
+    "total_fetched": 472,
+    "after_dedup": 454,
     "above_threshold": 4,
     "published": 4
   }
