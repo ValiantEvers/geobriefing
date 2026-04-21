@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-20T07:20:27Z",
-  "generated_date": "20. april 2026",
+  "generated_at": "2026-04-21T07:00:31Z",
+  "generated_date": "21. april 2026",
   "threat_level": {
     "level": "High",
     "color": "#A32D2D"
@@ -17,17 +17,17 @@
       "label": "Handel / Sanksjoner"
     },
     "energi_ravarer": {
-      "count": 2,
+      "count": 1,
       "color": "#639922",
       "label": "Energi / Ravarer"
     },
     "konflikter": {
-      "count": 6,
+      "count": 4,
       "color": "#D85A30",
       "label": "Konflikter"
     },
     "valg_maktskifter": {
-      "count": 3,
+      "count": 2,
       "color": "#7F77DD",
       "label": "Valg / Maktskifter"
     },
@@ -39,11 +39,11 @@
   },
   "articles": [
     {
-      "id": "67fd77b15353",
-      "title": "Oil prices surge amid mixed signals on US-Iran peace talks",
-      "description": "Brent crude rises more than 7 percent as Washington and Tehran offer conflicting accounts on ceasefire negotiations.",
-      "link": "https://www.aljazeera.com/economy/2026/4/20/oil-prices-surge-amid-mixed-signals-on-us-iran-peace-talks?traffic_source=rss",
-      "score": 5.8,
+      "id": "d83f86573043",
+      "title": "How is the war on Iran affecting the Russia-Ukraine conflict?",
+      "description": "The global energy crisis has implications for both sides.",
+      "link": "https://www.aljazeera.com/video/inside-story/2026/4/20/how-is-the-iran-war-affecting-the-russia-ukraine-conflict?traffic_source=rss",
+      "score": 5.3,
       "source_count": 1,
       "source_names": [
         "aljazeera"
@@ -52,7 +52,7 @@
         {
           "name": "energi_ravarer",
           "color": "#639922",
-          "hits": 3
+          "hits": 1
         },
         {
           "name": "konflikter",
@@ -62,35 +62,11 @@
       ]
     },
     {
-      "id": "f1da8a79b783",
-      "title": "Oil prices rise after Trump says Iranian ship seized",
-      "description": "Iran vows retaliation, accuses US of violating ceasefire after attack on cargo ship Touska.",
-      "link": "https://www.bbc.com/news/articles/c5yjzy35825o?at_medium=RSS&at_campaign=rss",
-      "score": 5.7,
-      "source_count": 2,
-      "source_names": [
-        "aljazeera",
-        "bbc_world"
-      ],
-      "tracks": [
-        {
-          "name": "energi_ravarer",
-          "color": "#639922",
-          "hits": 1
-        },
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 1
-        }
-      ]
-    },
-    {
-      "id": "393011600de1",
-      "title": "Kevin Warsh: Trump’s next fall guy at the Fed?",
-      "description": "The nominee to lead the world’s most powerful central bank wants big changes. But there’s risk of confrontation with the president over interest rates",
-      "link": "https://www.ft.com/content/a11d75a8-5885-4d65-97c1-0cab85f7df4d",
-      "score": 5.5,
+      "id": "a64a794dbaab",
+      "title": "Selling Poland’s gold reserves to buy arms is a ‘mirage’, minister warns",
+      "description": "Andrzej Domański is opposed to a plan pushed by the country’s president and central bank governor",
+      "link": "https://www.ft.com/content/eff29fa2-12da-4d98-a0de-c75ee89b6968",
+      "score": 5.2,
       "source_count": 1,
       "source_names": [
         "ft_world"
@@ -99,31 +75,8 @@
         {
           "name": "pengepolitikk",
           "color": "#185FA5",
-          "hits": 2
-        },
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
           "hits": 1
         },
-        {
-          "name": "valg_maktskifter",
-          "color": "#7F77DD",
-          "hits": 2
-        }
-      ]
-    },
-    {
-      "id": "2653ca6b3b78",
-      "title": "Iran war live: Tehran may skip talks as tensions rise over US ship seizure",
-      "description": "Attack comes hours after US President Donald Trump announced he is sending his team to Islamabad for possible talks.",
-      "link": "https://www.aljazeera.com/news/liveblog/2026/4/20/iran-war-live-tehran-slams-uss-piracy-after-ship-seizure-vows-response?traffic_source=rss",
-      "score": 5.0,
-      "source_count": 1,
-      "source_names": [
-        "aljazeera"
-      ],
-      "tracks": [
         {
           "name": "konflikter",
           "color": "#D85A30",
@@ -184,9 +137,9 @@
     }
   ],
   "stats": {
-    "total_fetched": 482,
-    "after_dedup": 461,
-    "above_threshold": 6,
-    "published": 6
+    "total_fetched": 534,
+    "after_dedup": 508,
+    "above_threshold": 4,
+    "published": 4
   }
 }
