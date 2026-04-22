@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-04-21T07:00:31Z",
-  "generated_date": "21. april 2026",
+  "generated_at": "2026-04-22T06:59:31Z",
+  "generated_date": "22. april 2026",
   "threat_level": {
     "level": "High",
     "color": "#A32D2D"
   },
   "track_summary": {
     "pengepolitikk": {
-      "count": 1,
+      "count": 0,
       "color": "#185FA5",
       "label": "Pengepolitikk"
     },
     "handel_sanksjoner": {
-      "count": 1,
+      "count": 2,
       "color": "#A32D2D",
       "label": "Handel / Sanksjoner"
     },
     "energi_ravarer": {
-      "count": 1,
+      "count": 0,
       "color": "#639922",
       "label": "Energi / Ravarer"
     },
     "konflikter": {
-      "count": 4,
+      "count": 6,
       "color": "#D85A30",
       "label": "Konflikter"
     },
     "valg_maktskifter": {
-      "count": 2,
+      "count": 3,
       "color": "#7F77DD",
       "label": "Valg / Maktskifter"
     },
@@ -39,21 +39,17 @@
   },
   "articles": [
     {
-      "id": "d83f86573043",
-      "title": "How is the war on Iran affecting the Russia-Ukraine conflict?",
-      "description": "The global energy crisis has implications for both sides.",
-      "link": "https://www.aljazeera.com/video/inside-story/2026/4/20/how-is-the-iran-war-affecting-the-russia-ukraine-conflict?traffic_source=rss",
-      "score": 5.3,
-      "source_count": 1,
+      "id": "2dbea56692a6",
+      "title": "Iran war: What’s happening on day 54 as Trump extends ceasefire?",
+      "description": "Barbara Slavin says Trump’s decision to extend a ceasefire with Iran is a relief, but a diplomatic solution is far off.",
+      "link": "https://www.aljazeera.com/news/2026/4/22/iran-war-whats-happening-on-day-54-as-trump-extends-ceasefire?traffic_source=rss",
+      "score": 5.7,
+      "source_count": 2,
       "source_names": [
-        "aljazeera"
+        "aljazeera",
+        "ft_world"
       ],
       "tracks": [
-        {
-          "name": "energi_ravarer",
-          "color": "#639922",
-          "hits": 1
-        },
         {
           "name": "konflikter",
           "color": "#D85A30",
@@ -62,29 +58,70 @@
       ]
     },
     {
-      "id": "a64a794dbaab",
-      "title": "Selling Poland’s gold reserves to buy arms is a ‘mirage’, minister warns",
-      "description": "Andrzej Domański is opposed to a plan pushed by the country’s president and central bank governor",
-      "link": "https://www.ft.com/content/eff29fa2-12da-4d98-a0de-c75ee89b6968",
-      "score": 5.2,
+      "id": "851a1715b923",
+      "title": "Trump announces Iran ceasefire extension but says blockade remains",
+      "description": "US president says attacks will be held off until Iranian leaders 'come up with a unified proposal' to end war.",
+      "link": "https://www.aljazeera.com/news/2026/4/21/trump-announces-extending-iran-ceasefire-but-says-blockade-remains?traffic_source=rss",
+      "score": 5.7,
       "source_count": 1,
       "source_names": [
-        "ft_world"
+        "aljazeera"
       ],
       "tracks": [
         {
-          "name": "pengepolitikk",
-          "color": "#185FA5",
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 2
+        },
+        {
+          "name": "valg_maktskifter",
+          "color": "#7F77DD",
+          "hits": 2
+        }
+      ]
+    },
+    {
+      "id": "951f7c07e320",
+      "title": "Trump extends ceasefire and hopes for ‘unified proposal’",
+      "description": "In a social media post, President Trump announced an extension of the ceasefire in the war on Iran.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/22/trump-extends-ceasefire-and-hopes-for-unified?traffic_source=rss",
+      "score": 5.2,
+      "source_count": 1,
+      "source_names": [
+        "aljazeera"
+      ],
+      "tracks": [
+        {
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 2
+        },
+        {
+          "name": "valg_maktskifter",
+          "color": "#7F77DD",
+          "hits": 2
+        }
+      ]
+    },
+    {
+      "id": "beb63dd2df88",
+      "title": "Iran war live: Trump says ceasefire extended as talks with Tehran in limbo",
+      "description": "Lebanon's disaster management unit raises death toll from weeks of Israeli attacks to 2,454, with 7,658 people injured.",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/4/22/iran-war-live-trump-says-ceasefire-extended-as-talks-with-tehran-in-limbo?traffic_source=rss",
+      "score": 5.0,
+      "source_count": 1,
+      "source_names": [
+        "aljazeera"
+      ],
+      "tracks": [
+        {
+          "name": "handel_sanksjoner",
+          "color": "#A32D2D",
           "hits": 1
         },
         {
           "name": "konflikter",
           "color": "#D85A30",
-          "hits": 1
-        },
-        {
-          "name": "valg_maktskifter",
-          "color": "#7F77DD",
           "hits": 2
         }
       ]
@@ -137,9 +174,9 @@
     }
   ],
   "stats": {
-    "total_fetched": 534,
-    "after_dedup": 508,
-    "above_threshold": 4,
-    "published": 4
+    "total_fetched": 479,
+    "after_dedup": 456,
+    "above_threshold": 6,
+    "published": 6
   }
 }
