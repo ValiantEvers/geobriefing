@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-22T06:59:31Z",
-  "generated_date": "22. april 2026",
+  "generated_at": "2026-04-23T07:03:37Z",
+  "generated_date": "23. april 2026",
   "threat_level": {
     "level": "High",
     "color": "#A32D2D"
@@ -22,31 +22,30 @@
       "label": "Energi / Ravarer"
     },
     "konflikter": {
-      "count": 6,
+      "count": 5,
       "color": "#D85A30",
       "label": "Konflikter"
     },
     "valg_maktskifter": {
-      "count": 3,
+      "count": 2,
       "color": "#7F77DD",
       "label": "Valg / Maktskifter"
     },
     "tech_regulering": {
-      "count": 0,
+      "count": 1,
       "color": "#1D9E75",
       "label": "Tech / Regulering"
     }
   },
   "articles": [
     {
-      "id": "2dbea56692a6",
-      "title": "Iran war: What’s happening on day 54 as Trump extends ceasefire?",
-      "description": "Barbara Slavin says Trump’s decision to extend a ceasefire with Iran is a relief, but a diplomatic solution is far off.",
-      "link": "https://www.aljazeera.com/news/2026/4/22/iran-war-whats-happening-on-day-54-as-trump-extends-ceasefire?traffic_source=rss",
-      "score": 5.7,
-      "source_count": 2,
+      "id": "2469a5c7ec52",
+      "title": "Top Republican pushes party to shun $300mn AI lobby",
+      "description": "Senator Josh Hawley warns of ‘political cost’ if Washington fails to rein in Big Tech and artificial intelligence",
+      "link": "https://www.ft.com/content/3fd0a5d9-99cd-41a1-af79-7987c73d9fd3",
+      "score": 5.4,
+      "source_count": 1,
       "source_names": [
-        "aljazeera",
         "ft_world"
       ],
       "tracks": [
@@ -54,60 +53,42 @@
           "name": "konflikter",
           "color": "#D85A30",
           "hits": 2
-        }
-      ]
-    },
-    {
-      "id": "851a1715b923",
-      "title": "Trump announces Iran ceasefire extension but says blockade remains",
-      "description": "US president says attacks will be held off until Iranian leaders 'come up with a unified proposal' to end war.",
-      "link": "https://www.aljazeera.com/news/2026/4/21/trump-announces-extending-iran-ceasefire-but-says-blockade-remains?traffic_source=rss",
-      "score": 5.7,
-      "source_count": 1,
-      "source_names": [
-        "aljazeera"
-      ],
-      "tracks": [
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 2
         },
         {
-          "name": "valg_maktskifter",
-          "color": "#7F77DD",
+          "name": "tech_regulering",
+          "color": "#1D9E75",
           "hits": 2
         }
       ]
     },
     {
-      "id": "951f7c07e320",
-      "title": "Trump extends ceasefire and hopes for ‘unified proposal’",
-      "description": "In a social media post, President Trump announced an extension of the ceasefire in the war on Iran.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/22/trump-extends-ceasefire-and-hopes-for-unified?traffic_source=rss",
+      "id": "0177ddb0f1c9",
+      "title": "China weathered Trump's tariffs - but the Iran war is taking a toll",
+      "description": "The Middle East conflict is putting pressure on factory orders, costs and jobs in China's export-driven economy.",
+      "link": "https://www.bbc.com/news/articles/cn0ep28drllo?at_medium=RSS&at_campaign=rss",
       "score": 5.2,
       "source_count": 1,
       "source_names": [
-        "aljazeera"
+        "bbc_world"
       ],
       "tracks": [
         {
-          "name": "konflikter",
-          "color": "#D85A30",
+          "name": "handel_sanksjoner",
+          "color": "#A32D2D",
           "hits": 2
         },
         {
-          "name": "valg_maktskifter",
-          "color": "#7F77DD",
+          "name": "konflikter",
+          "color": "#D85A30",
           "hits": 2
         }
       ]
     },
     {
-      "id": "beb63dd2df88",
-      "title": "Iran war live: Trump says ceasefire extended as talks with Tehran in limbo",
-      "description": "Lebanon's disaster management unit raises death toll from weeks of Israeli attacks to 2,454, with 7,658 people injured.",
-      "link": "https://www.aljazeera.com/news/liveblog/2026/4/22/iran-war-live-trump-says-ceasefire-extended-as-talks-with-tehran-in-limbo?traffic_source=rss",
+      "id": "cd5e3dc30c12",
+      "title": "Democrats up in Virginia, but US voters may pay price for redistricting war",
+      "description": "Experts say unprecedented flurry of tit-for-tat congressional redistricting risks surge in gerrymandering.",
+      "link": "https://www.aljazeera.com/news/2026/4/23/democrats-up-in-virginia-but-us-voters-may-pay-price-for-redistricting-war?traffic_source=rss",
       "score": 5.0,
       "source_count": 1,
       "source_names": [
@@ -115,14 +96,14 @@
       ],
       "tracks": [
         {
-          "name": "handel_sanksjoner",
-          "color": "#A32D2D",
+          "name": "konflikter",
+          "color": "#D85A30",
           "hits": 1
         },
         {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 2
+          "name": "valg_maktskifter",
+          "color": "#7F77DD",
+          "hits": 1
         }
       ]
     },
@@ -174,9 +155,9 @@
     }
   ],
   "stats": {
-    "total_fetched": 479,
-    "after_dedup": 456,
-    "above_threshold": 6,
-    "published": 6
+    "total_fetched": 537,
+    "after_dedup": 513,
+    "above_threshold": 5,
+    "published": 5
   }
 }
