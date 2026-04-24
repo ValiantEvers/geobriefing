@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-23T07:03:37Z",
-  "generated_date": "23. april 2026",
+  "generated_at": "2026-04-24T07:06:47Z",
+  "generated_date": "24. april 2026",
   "threat_level": {
     "level": "High",
     "color": "#A32D2D"
@@ -12,7 +12,7 @@
       "label": "Pengepolitikk"
     },
     "handel_sanksjoner": {
-      "count": 2,
+      "count": 3,
       "color": "#A32D2D",
       "label": "Handel / Sanksjoner"
     },
@@ -22,41 +22,60 @@
       "label": "Energi / Ravarer"
     },
     "konflikter": {
-      "count": 5,
+      "count": 3,
       "color": "#D85A30",
       "label": "Konflikter"
     },
     "valg_maktskifter": {
-      "count": 2,
+      "count": 3,
       "color": "#7F77DD",
       "label": "Valg / Maktskifter"
     },
     "tech_regulering": {
-      "count": 1,
+      "count": 0,
       "color": "#1D9E75",
       "label": "Tech / Regulering"
     }
   },
   "articles": [
     {
-      "id": "2469a5c7ec52",
-      "title": "Top Republican pushes party to shun $300mn AI lobby",
-      "description": "Senator Josh Hawley warns of ‘political cost’ if Washington fails to rein in Big Tech and artificial intelligence",
-      "link": "https://www.ft.com/content/3fd0a5d9-99cd-41a1-af79-7987c73d9fd3",
-      "score": 5.4,
-      "source_count": 1,
+      "id": "ab2e637c68fa",
+      "title": "South African police chief suspended over $20m health contract",
+      "description": "Police chief Fannie Masemola suspended as President Cyril Ramaphosa faces pressure to tackle corruption ahead of polls.",
+      "link": "https://www.bbc.com/news/articles/cvglxkjwr5lo?at_medium=RSS&at_campaign=rss",
+      "score": 5.5,
+      "source_count": 2,
       "source_names": [
-        "ft_world"
+        "aljazeera",
+        "bbc_world"
       ],
       "tracks": [
         {
-          "name": "konflikter",
-          "color": "#D85A30",
+          "name": "valg_maktskifter",
+          "color": "#7F77DD",
           "hits": 2
+        }
+      ]
+    },
+    {
+      "id": "6be166b51b06",
+      "title": "EU formally approves 90bn euro Ukraine loan and new sanctions on Russia",
+      "description": "Ukrainian President Zelenskyy welcomes the development, urging that the first tranche be disbursed by May or June.",
+      "link": "https://www.aljazeera.com/news/2026/4/23/eu-formally-approves-90bn-euro-ukraine-loan-and-new-sanctions-on-russia?traffic_source=rss",
+      "score": 5.3,
+      "source_count": 1,
+      "source_names": [
+        "aljazeera"
+      ],
+      "tracks": [
+        {
+          "name": "handel_sanksjoner",
+          "color": "#A32D2D",
+          "hits": 1
         },
         {
-          "name": "tech_regulering",
-          "color": "#1D9E75",
+          "name": "valg_maktskifter",
+          "color": "#7F77DD",
           "hits": 2
         }
       ]
@@ -81,29 +100,6 @@
           "name": "konflikter",
           "color": "#D85A30",
           "hits": 2
-        }
-      ]
-    },
-    {
-      "id": "cd5e3dc30c12",
-      "title": "Democrats up in Virginia, but US voters may pay price for redistricting war",
-      "description": "Experts say unprecedented flurry of tit-for-tat congressional redistricting risks surge in gerrymandering.",
-      "link": "https://www.aljazeera.com/news/2026/4/23/democrats-up-in-virginia-but-us-voters-may-pay-price-for-redistricting-war?traffic_source=rss",
-      "score": 5.0,
-      "source_count": 1,
-      "source_names": [
-        "aljazeera"
-      ],
-      "tracks": [
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 1
-        },
-        {
-          "name": "valg_maktskifter",
-          "color": "#7F77DD",
-          "hits": 1
         }
       ]
     },
@@ -155,8 +151,8 @@
     }
   ],
   "stats": {
-    "total_fetched": 537,
-    "after_dedup": 513,
+    "total_fetched": 539,
+    "after_dedup": 517,
     "above_threshold": 5,
     "published": 5
   }
