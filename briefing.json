@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-25T06:22:34Z",
-  "generated_date": "25. april 2026",
+  "generated_at": "2026-04-26T07:01:01Z",
+  "generated_date": "26. april 2026",
   "threat_level": {
-    "level": "High",
-    "color": "#A32D2D"
+    "level": "Low",
+    "color": "#639922"
   },
   "track_summary": {
     "pengepolitikk": {
@@ -12,7 +12,7 @@
       "label": "Pengepolitikk"
     },
     "handel_sanksjoner": {
-      "count": 1,
+      "count": 0,
       "color": "#A32D2D",
       "label": "Handel / Sanksjoner"
     },
@@ -22,12 +22,12 @@
       "label": "Energi / Ravarer"
     },
     "konflikter": {
-      "count": 3,
+      "count": 1,
       "color": "#D85A30",
       "label": "Konflikter"
     },
     "valg_maktskifter": {
-      "count": 1,
+      "count": 0,
       "color": "#7F77DD",
       "label": "Valg / Maktskifter"
     },
@@ -39,13 +39,14 @@
   },
   "articles": [
     {
-      "id": "7efabbdf9217",
-      "title": "No 10 says Falklands sovereignty rests with UK after report of US 'review'",
-      "description": "An internal Pentagon document reportedly raised the prospect of a change in position in retaliation for the UK not joining the Iran war.",
-      "link": "https://www.bbc.com/news/articles/cde51y0zgjyo?at_medium=RSS&at_campaign=rss",
-      "score": 5.3,
-      "source_count": 2,
+      "id": "01c5e4a8ded9",
+      "title": "Trump cancels US envoys' trip to Pakistan for talks on Iran war",
+      "description": "Iran had earlier said there were no plans for a direct meeting with a US delegation led by Steve Witkoff and Jared Kushner.",
+      "link": "https://www.bbc.com/news/articles/c4g6nyvl29po?at_medium=RSS&at_campaign=rss",
+      "score": 5.1,
+      "source_count": 3,
       "source_names": [
+        "aljazeera",
         "bbc_world",
         "ft_world"
       ],
@@ -56,58 +57,12 @@
           "hits": 1
         }
       ]
-    },
-    {
-      "id": "466740661a3c",
-      "title": "China tries shock-and-awe on Donald Trump",
-      "description": "Xi Jinping’s bet that dramatic escalation is the way to win a trade war",
-      "link": "https://www.economist.com/international/2025/10/12/china-tries-shock-and-awe-on-donald-trump",
-      "score": 5.0,
-      "source_count": 1,
-      "source_names": [
-        "economist_intl"
-      ],
-      "tracks": [
-        {
-          "name": "handel_sanksjoner",
-          "color": "#A32D2D",
-          "hits": 1
-        },
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 2
-        }
-      ]
-    },
-    {
-      "id": "80089032caba",
-      "title": "A UN vote on Palestine underlines America’s weakening clout",
-      "description": "Russia and China are riding a surge of support for the Palestinians since the Gaza war started",
-      "link": "https://www.economist.com/international/2024/09/18/a-un-vote-on-palestine-underlines-americas-weakening-clout",
-      "score": 5.0,
-      "source_count": 1,
-      "source_names": [
-        "economist_intl"
-      ],
-      "tracks": [
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 1
-        },
-        {
-          "name": "valg_maktskifter",
-          "color": "#7F77DD",
-          "hits": 1
-        }
-      ]
     }
   ],
   "stats": {
-    "total_fetched": 533,
-    "after_dedup": 510,
-    "above_threshold": 3,
-    "published": 3
+    "total_fetched": 483,
+    "after_dedup": 458,
+    "above_threshold": 1,
+    "published": 1
   }
 }
