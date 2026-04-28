@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-04-27T07:37:58Z",
-  "generated_date": "27. april 2026",
+  "generated_at": "2026-04-28T07:34:31Z",
+  "generated_date": "28. april 2026",
   "threat_level": {
     "level": "High",
     "color": "#A32D2D"
   },
   "track_summary": {
     "pengepolitikk": {
-      "count": 0,
+      "count": 1,
       "color": "#185FA5",
       "label": "Pengepolitikk"
     },
     "handel_sanksjoner": {
-      "count": 2,
+      "count": 1,
       "color": "#A32D2D",
       "label": "Handel / Sanksjoner"
     },
     "energi_ravarer": {
-      "count": 1,
+      "count": 0,
       "color": "#639922",
       "label": "Energi / Ravarer"
     },
     "konflikter": {
-      "count": 10,
+      "count": 4,
       "color": "#D85A30",
       "label": "Konflikter"
     },
     "valg_maktskifter": {
-      "count": 3,
+      "count": 2,
       "color": "#7F77DD",
       "label": "Valg / Maktskifter"
     },
@@ -39,11 +39,39 @@
   },
   "articles": [
     {
+      "id": "aa4ebf4baeed",
+      "title": "Coffee, fuel and houses: why Trump has an inflation problem",
+      "description": "The US president’s war in Iran has worsened America’s affordability crisis",
+      "link": "https://www.ft.com/content/401a7647-5593-4a58-8592-92caf9dbd440",
+      "score": 5.4,
+      "source_count": 1,
+      "source_names": [
+        "ft_world"
+      ],
+      "tracks": [
+        {
+          "name": "pengepolitikk",
+          "color": "#185FA5",
+          "hits": 1
+        },
+        {
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 1
+        },
+        {
+          "name": "valg_maktskifter",
+          "color": "#7F77DD",
+          "hits": 2
+        }
+      ]
+    },
+    {
       "id": "97be8924d847",
       "title": "NYT: Krigen i Iran har tært på USAs våpenlager",
       "description": "Det vil ta mange år å erstatte missiler brukt i krigen mot Iran, ifølge The New York Times. USA ville ha slitt dersom de ble angrepet av en sterkere motstander, mener analytiker.",
       "link": "https://www.nrk.no/urix/krigen-i-iran-har-tappet-usa-for-missiler-1.17860230",
-      "score": 7.2,
+      "score": 5.2,
       "source_count": 1,
       "source_names": [
         "nrk_urix"
@@ -61,7 +89,7 @@
       "title": "China tries shock-and-awe on Donald Trump",
       "description": "Xi Jinping’s bet that dramatic escalation is the way to win a trade war",
       "link": "https://www.economist.com/international/2025/10/12/china-tries-shock-and-awe-on-donald-trump",
-      "score": 7.0,
+      "score": 5.0,
       "source_count": 1,
       "source_names": [
         "economist_intl"
@@ -84,7 +112,7 @@
       "title": "A UN vote on Palestine underlines America’s weakening clout",
       "description": "Russia and China are riding a surge of support for the Palestinians since the Gaza war started",
       "link": "https://www.economist.com/international/2024/09/18/a-un-vote-on-palestine-underlines-americas-weakening-clout",
-      "score": 7.0,
+      "score": 5.0,
       "source_count": 1,
       "source_names": [
         "economist_intl"
@@ -99,160 +127,14 @@
           "name": "valg_maktskifter",
           "color": "#7F77DD",
           "hits": 1
-        }
-      ]
-    },
-    {
-      "id": "545ec1c1c1f1",
-      "title": "Goldman Sachs raises oil price forecast as war disruption drags on",
-      "description": "Analysts expect Brent crude to trade at about $90 in fourth quarter, up from earlier $80 prediction",
-      "link": "https://www.ft.com/content/448b06dd-6f8e-455a-add8-3d64e9d96d8b",
-      "score": 6.9,
-      "source_count": 1,
-      "source_names": [
-        "ft_world"
-      ],
-      "tracks": [
-        {
-          "name": "energi_ravarer",
-          "color": "#639922",
-          "hits": 3
-        },
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 1
-        }
-      ]
-    },
-    {
-      "id": "f532575a449e",
-      "title": "The world faces its worst trade wars since the 1930s",
-      "description": "Donald Trump’s re-election accelerates a crisis for globalisation",
-      "link": "https://www.economist.com/international/2024/11/07/the-world-faces-its-worst-trade-wars-since-the-1930s",
-      "score": 6.8,
-      "source_count": 1,
-      "source_names": [
-        "economist_intl"
-      ],
-      "tracks": [
-        {
-          "name": "handel_sanksjoner",
-          "color": "#A32D2D",
-          "hits": 1
-        },
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 1
-        },
-        {
-          "name": "valg_maktskifter",
-          "color": "#7F77DD",
-          "hits": 1
-        }
-      ]
-    },
-    {
-      "id": "f9901145b0c6",
-      "title": "The three steps on America’s ladder of military escalation",
-      "description": "Could America be dragged back into another Middle East war?",
-      "link": "https://www.economist.com/international/2023/10/25/the-three-steps-on-americas-ladder-of-military-escalation",
-      "score": 6.8,
-      "source_count": 1,
-      "source_names": [
-        "economist_intl"
-      ],
-      "tracks": [
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 3
-        }
-      ]
-    },
-    {
-      "id": "baeb5751ba07",
-      "title": "The War Room newsletter: Did a Russian weapon spook Trump?",
-      "description": "Shashank Joshi, our defence editor, talks missile protection—in Yorkshire",
-      "link": "https://www.economist.com/international/2025/11/03/the-war-room-newsletter-did-a-russian-weapon-spook-trump",
-      "score": 6.5,
-      "source_count": 1,
-      "source_names": [
-        "economist_intl"
-      ],
-      "tracks": [
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 2
-        }
-      ]
-    },
-    {
-      "id": "eea372538a4c",
-      "title": "The War Room newsletter: Why Trump wants a Taliban air base back",
-      "description": "The president’s neo-imperial worldview has something to do with it, according to Shashank Joshi, our defence editor",
-      "link": "https://www.economist.com/international/2025/09/22/the-war-room-newsletter-why-trump-wants-a-taliban-air-base-back",
-      "score": 6.3,
-      "source_count": 1,
-      "source_names": [
-        "economist_intl"
-      ],
-      "tracks": [
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 1
-        },
-        {
-          "name": "valg_maktskifter",
-          "color": "#7F77DD",
-          "hits": 2
-        }
-      ]
-    },
-    {
-      "id": "6f21433afbd2",
-      "title": "How ransomware could cripple countries, not just companies",
-      "description": "Experts think 2023 was a record year for digital attacks",
-      "link": "https://www.economist.com/international/2023/12/31/how-ransomware-could-cripple-countries-not-just-companies",
-      "score": 6.3,
-      "source_count": 1,
-      "source_names": [
-        "economist_intl"
-      ],
-      "tracks": [
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 1
-        }
-      ]
-    },
-    {
-      "id": "1eeaed1c03f5",
-      "title": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
-      "description": "An internal Pentagon email reportedly outlines options to punish allies over a perceived lack of support for Iran war.",
-      "link": "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss",
-      "score": 6.2,
-      "source_count": 1,
-      "source_names": [
-        "bbc_world"
-      ],
-      "tracks": [
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 2
         }
       ]
     }
   ],
   "stats": {
-    "total_fetched": 535,
-    "after_dedup": 514,
-    "above_threshold": 169,
-    "published": 10
+    "total_fetched": 480,
+    "after_dedup": 459,
+    "above_threshold": 4,
+    "published": 4
   }
 }
