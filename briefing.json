@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-28T07:34:31Z",
-  "generated_date": "28. april 2026",
+  "generated_at": "2026-04-29T07:27:51Z",
+  "generated_date": "29. april 2026",
   "threat_level": {
     "level": "High",
     "color": "#A32D2D"
@@ -27,23 +27,23 @@
       "label": "Konflikter"
     },
     "valg_maktskifter": {
-      "count": 2,
+      "count": 3,
       "color": "#7F77DD",
       "label": "Valg / Maktskifter"
     },
     "tech_regulering": {
-      "count": 0,
+      "count": 1,
       "color": "#1D9E75",
       "label": "Tech / Regulering"
     }
   },
   "articles": [
     {
-      "id": "aa4ebf4baeed",
-      "title": "Coffee, fuel and houses: why Trump has an inflation problem",
-      "description": "The US president’s war in Iran has worsened America’s affordability crisis",
-      "link": "https://www.ft.com/content/401a7647-5593-4a58-8592-92caf9dbd440",
-      "score": 5.4,
+      "id": "9db770f80082",
+      "title": "How Jay Powell repelled Donald Trump’s attacks on the Federal Reserve",
+      "description": "Central bank chair’s decision to confront the president has bolstered the institution’s independence",
+      "link": "https://www.ft.com/content/f3df5b5b-6421-43f0-a340-c57210ff329a",
+      "score": 5.5,
       "source_count": 1,
       "source_names": [
         "ft_world"
@@ -52,8 +52,26 @@
         {
           "name": "pengepolitikk",
           "color": "#185FA5",
-          "hits": 1
+          "hits": 3
         },
+        {
+          "name": "valg_maktskifter",
+          "color": "#7F77DD",
+          "hits": 2
+        }
+      ]
+    },
+    {
+      "id": "5841b465e18d",
+      "title": "Lebanon’s PM slams Israel’s ‘war crimes’ as attack kills 3 rescue workers",
+      "description": "Lebanese President Joseph Aoun says Israel violating international law that protects civilians and humanitarian workers.",
+      "link": "https://www.aljazeera.com/news/2026/4/29/lebanons-pm-slams-israels-war-crimes-as-attack-kills-3-rescue-workers?traffic_source=rss",
+      "score": 5.0,
+      "source_count": 1,
+      "source_names": [
+        "aljazeera"
+      ],
+      "tracks": [
         {
           "name": "konflikter",
           "color": "#D85A30",
@@ -67,20 +85,25 @@
       ]
     },
     {
-      "id": "97be8924d847",
-      "title": "NYT: Krigen i Iran har tært på USAs våpenlager",
-      "description": "Det vil ta mange år å erstatte missiler brukt i krigen mot Iran, ifølge The New York Times. USA ville ha slitt dersom de ble angrepet av en sterkere motstander, mener analytiker.",
-      "link": "https://www.nrk.no/urix/krigen-i-iran-har-tappet-usa-for-missiler-1.17860230",
-      "score": 5.2,
+      "id": "ada99f96b015",
+      "title": "Emerging market stocks hit record high as Asian chipmakers surge",
+      "description": "Rally for TSMC, Samsung and SK Hynix powers EM stock index’s rebound from Iran war losses",
+      "link": "https://www.ft.com/content/5a003a35-a48b-4e46-a2d3-b99ae41d0e46",
+      "score": 5.0,
       "source_count": 1,
       "source_names": [
-        "nrk_urix"
+        "ft_world"
       ],
       "tracks": [
         {
           "name": "konflikter",
           "color": "#D85A30",
-          "hits": 2
+          "hits": 1
+        },
+        {
+          "name": "tech_regulering",
+          "color": "#1D9E75",
+          "hits": 1
         }
       ]
     },
@@ -132,9 +155,9 @@
     }
   ],
   "stats": {
-    "total_fetched": 480,
-    "after_dedup": 459,
-    "above_threshold": 4,
-    "published": 4
+    "total_fetched": 492,
+    "after_dedup": 469,
+    "above_threshold": 5,
+    "published": 5
   }
 }
