@@ -1,77 +1,59 @@
 {
-  "generated_at": "2026-04-29T07:27:51Z",
-  "generated_date": "29. april 2026",
+  "generated_at": "2026-04-30T07:32:24Z",
+  "generated_date": "30. april 2026",
   "threat_level": {
     "level": "High",
     "color": "#A32D2D"
   },
   "track_summary": {
     "pengepolitikk": {
-      "count": 1,
+      "count": 3,
       "color": "#185FA5",
       "label": "Pengepolitikk"
     },
     "handel_sanksjoner": {
-      "count": 1,
+      "count": 2,
       "color": "#A32D2D",
       "label": "Handel / Sanksjoner"
     },
     "energi_ravarer": {
-      "count": 0,
+      "count": 2,
       "color": "#639922",
       "label": "Energi / Ravarer"
     },
     "konflikter": {
-      "count": 4,
+      "count": 9,
       "color": "#D85A30",
       "label": "Konflikter"
     },
     "valg_maktskifter": {
-      "count": 3,
+      "count": 4,
       "color": "#7F77DD",
       "label": "Valg / Maktskifter"
     },
     "tech_regulering": {
-      "count": 1,
+      "count": 0,
       "color": "#1D9E75",
       "label": "Tech / Regulering"
     }
   },
   "articles": [
     {
-      "id": "9db770f80082",
-      "title": "How Jay Powell repelled Donald Trump’s attacks on the Federal Reserve",
-      "description": "Central bank chair’s decision to confront the president has bolstered the institution’s independence",
-      "link": "https://www.ft.com/content/f3df5b5b-6421-43f0-a340-c57210ff329a",
-      "score": 5.5,
+      "id": "6dc8aae6bd27",
+      "title": "Skyhøy oljepris: Over 126 dollar fatet",
+      "description": "Prisen på nordsjøolje med levering neste måned var på over 126 dollar fatet torsdag morgen.\nDet er det høyeste oljeprisen har vært siden USA og Israel gikk til krig mot Iran, skriver E24.\nStigningen kommer etter at USAs president Donald Trump varslet at blokaden av iranske havner kan vare i flere...",
+      "link": "https://www.nrk.no/nyheter/skyhoy-oljepris_-over-126-dollar-fatet-1.17866453",
+      "score": 7.2,
       "source_count": 1,
       "source_names": [
-        "ft_world"
+        "nrk_urix"
       ],
       "tracks": [
         {
-          "name": "pengepolitikk",
-          "color": "#185FA5",
-          "hits": 3
+          "name": "energi_ravarer",
+          "color": "#639922",
+          "hits": 1
         },
-        {
-          "name": "valg_maktskifter",
-          "color": "#7F77DD",
-          "hits": 2
-        }
-      ]
-    },
-    {
-      "id": "5841b465e18d",
-      "title": "Lebanon’s PM slams Israel’s ‘war crimes’ as attack kills 3 rescue workers",
-      "description": "Lebanese President Joseph Aoun says Israel violating international law that protects civilians and humanitarian workers.",
-      "link": "https://www.aljazeera.com/news/2026/4/29/lebanons-pm-slams-israels-war-crimes-as-attack-kills-3-rescue-workers?traffic_source=rss",
-      "score": 5.0,
-      "source_count": 1,
-      "source_names": [
-        "aljazeera"
-      ],
-      "tracks": [
         {
           "name": "konflikter",
           "color": "#D85A30",
@@ -81,29 +63,6 @@
           "name": "valg_maktskifter",
           "color": "#7F77DD",
           "hits": 2
-        }
-      ]
-    },
-    {
-      "id": "ada99f96b015",
-      "title": "Emerging market stocks hit record high as Asian chipmakers surge",
-      "description": "Rally for TSMC, Samsung and SK Hynix powers EM stock index’s rebound from Iran war losses",
-      "link": "https://www.ft.com/content/5a003a35-a48b-4e46-a2d3-b99ae41d0e46",
-      "score": 5.0,
-      "source_count": 1,
-      "source_names": [
-        "ft_world"
-      ],
-      "tracks": [
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 1
-        },
-        {
-          "name": "tech_regulering",
-          "color": "#1D9E75",
-          "hits": 1
         }
       ]
     },
@@ -112,7 +71,7 @@
       "title": "China tries shock-and-awe on Donald Trump",
       "description": "Xi Jinping’s bet that dramatic escalation is the way to win a trade war",
       "link": "https://www.economist.com/international/2025/10/12/china-tries-shock-and-awe-on-donald-trump",
-      "score": 5.0,
+      "score": 7.0,
       "source_count": 1,
       "source_names": [
         "economist_intl"
@@ -135,7 +94,7 @@
       "title": "A UN vote on Palestine underlines America’s weakening clout",
       "description": "Russia and China are riding a surge of support for the Palestinians since the Gaza war started",
       "link": "https://www.economist.com/international/2024/09/18/a-un-vote-on-palestine-underlines-americas-weakening-clout",
-      "score": 5.0,
+      "score": 7.0,
       "source_count": 1,
       "source_names": [
         "economist_intl"
@@ -152,12 +111,168 @@
           "hits": 1
         }
       ]
+    },
+    {
+      "id": "0fb7f9ec2e7b",
+      "title": "Four key takeaways from Jerome Powell's final rate decision as Fed chair",
+      "description": "Powell's news conference after holding rates covered the US-Israel war with Iran, inflation, legal attacks, and the Fed's independence.",
+      "link": "https://www.bbc.com/news/articles/c62rm4zk3kgo?at_medium=RSS&at_campaign=rss",
+      "score": 6.8,
+      "source_count": 1,
+      "source_names": [
+        "bbc_world"
+      ],
+      "tracks": [
+        {
+          "name": "pengepolitikk",
+          "color": "#185FA5",
+          "hits": 2
+        },
+        {
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 1
+        }
+      ]
+    },
+    {
+      "id": "f532575a449e",
+      "title": "The world faces its worst trade wars since the 1930s",
+      "description": "Donald Trump’s re-election accelerates a crisis for globalisation",
+      "link": "https://www.economist.com/international/2024/11/07/the-world-faces-its-worst-trade-wars-since-the-1930s",
+      "score": 6.8,
+      "source_count": 1,
+      "source_names": [
+        "economist_intl"
+      ],
+      "tracks": [
+        {
+          "name": "handel_sanksjoner",
+          "color": "#A32D2D",
+          "hits": 1
+        },
+        {
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 1
+        },
+        {
+          "name": "valg_maktskifter",
+          "color": "#7F77DD",
+          "hits": 1
+        }
+      ]
+    },
+    {
+      "id": "f9901145b0c6",
+      "title": "The three steps on America’s ladder of military escalation",
+      "description": "Could America be dragged back into another Middle East war?",
+      "link": "https://www.economist.com/international/2023/10/25/the-three-steps-on-americas-ladder-of-military-escalation",
+      "score": 6.8,
+      "source_count": 1,
+      "source_names": [
+        "economist_intl"
+      ],
+      "tracks": [
+        {
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 3
+        }
+      ]
+    },
+    {
+      "id": "baeb5751ba07",
+      "title": "The War Room newsletter: Did a Russian weapon spook Trump?",
+      "description": "Shashank Joshi, our defence editor, talks missile protection—in Yorkshire",
+      "link": "https://www.economist.com/international/2025/11/03/the-war-room-newsletter-did-a-russian-weapon-spook-trump",
+      "score": 6.5,
+      "source_count": 1,
+      "source_names": [
+        "economist_intl"
+      ],
+      "tracks": [
+        {
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 2
+        }
+      ]
+    },
+    {
+      "id": "aa051ef5377d",
+      "title": "'Numbskull, moron and too stupid': Trump and Powell's biggest clashes",
+      "description": "How the US President Donald Trump and Federal Reserve chair Jerome Powell came to blows.",
+      "link": "https://www.bbc.com/news/articles/c7v952p61dgo?at_medium=RSS&at_campaign=rss",
+      "score": 6.4,
+      "source_count": 1,
+      "source_names": [
+        "bbc_world"
+      ],
+      "tracks": [
+        {
+          "name": "pengepolitikk",
+          "color": "#185FA5",
+          "hits": 2
+        },
+        {
+          "name": "valg_maktskifter",
+          "color": "#7F77DD",
+          "hits": 2
+        }
+      ]
+    },
+    {
+      "id": "2238a96a6dd1",
+      "title": "Oil surges past $125 as fears of prolonged supply disruption grow",
+      "description": "Brent crude sets new conflict high as blockade of Strait of Hormuz continues",
+      "link": "https://www.ft.com/content/ce575380-eccc-447c-a64e-493957d9b037",
+      "score": 6.3,
+      "source_count": 1,
+      "source_names": [
+        "ft_world"
+      ],
+      "tracks": [
+        {
+          "name": "energi_ravarer",
+          "color": "#639922",
+          "hits": 2
+        },
+        {
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 1
+        }
+      ]
+    },
+    {
+      "id": "49afa93ca822",
+      "title": "Inflation hits 50% in Iran as war rattles economy",
+      "description": "Consumers feel effects of conflict while many expect Strait of Hormuz stand-off to exacerbate stagnation",
+      "link": "https://www.ft.com/content/d91c1132-c4ae-4d9d-99bd-142e5a262b6a",
+      "score": 6.3,
+      "source_count": 1,
+      "source_names": [
+        "ft_world"
+      ],
+      "tracks": [
+        {
+          "name": "pengepolitikk",
+          "color": "#185FA5",
+          "hits": 1
+        },
+        {
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 2
+        }
+      ]
     }
   ],
   "stats": {
     "total_fetched": 492,
-    "after_dedup": 469,
-    "above_threshold": 5,
-    "published": 5
+    "after_dedup": 470,
+    "above_threshold": 166,
+    "published": 10
   }
 }
