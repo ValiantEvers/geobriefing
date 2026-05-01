@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-04-30T07:32:24Z",
-  "generated_date": "30. april 2026",
+  "generated_at": "2026-05-01T07:29:42Z",
+  "generated_date": "01. may 2026",
   "threat_level": {
     "level": "High",
     "color": "#A32D2D"
   },
   "track_summary": {
     "pengepolitikk": {
-      "count": 3,
+      "count": 0,
       "color": "#185FA5",
       "label": "Pengepolitikk"
     },
@@ -17,17 +17,17 @@
       "label": "Handel / Sanksjoner"
     },
     "energi_ravarer": {
-      "count": 2,
+      "count": 1,
       "color": "#639922",
       "label": "Energi / Ravarer"
     },
     "konflikter": {
-      "count": 9,
+      "count": 10,
       "color": "#D85A30",
       "label": "Konflikter"
     },
     "valg_maktskifter": {
-      "count": 4,
+      "count": 5,
       "color": "#7F77DD",
       "label": "Valg / Maktskifter"
     },
@@ -113,25 +113,25 @@
       ]
     },
     {
-      "id": "0fb7f9ec2e7b",
-      "title": "Four key takeaways from Jerome Powell's final rate decision as Fed chair",
-      "description": "Powell's news conference after holding rates covered the US-Israel war with Iran, inflation, legal attacks, and the Fed's independence.",
-      "link": "https://www.bbc.com/news/articles/c62rm4zk3kgo?at_medium=RSS&at_campaign=rss",
+      "id": "4115eee9309f",
+      "title": "Iran war: What’s happening on day 63 as Trump signals possible attacks",
+      "description": "Iran’s president calls the US siege 'intolerable' as Donald Trump says war may resume.",
+      "link": "https://www.aljazeera.com/news/2026/5/1/iran-war-whats-happening-on-day-63-as-trump-signals-possible-attacks?traffic_source=rss",
       "score": 6.8,
       "source_count": 1,
       "source_names": [
-        "bbc_world"
+        "aljazeera"
       ],
       "tracks": [
-        {
-          "name": "pengepolitikk",
-          "color": "#185FA5",
-          "hits": 2
-        },
         {
           "name": "konflikter",
           "color": "#D85A30",
           "hits": 1
+        },
+        {
+          "name": "valg_maktskifter",
+          "color": "#7F77DD",
+          "hits": 2
         }
       ]
     },
@@ -200,20 +200,20 @@
       ]
     },
     {
-      "id": "aa051ef5377d",
-      "title": "'Numbskull, moron and too stupid': Trump and Powell's biggest clashes",
-      "description": "How the US President Donald Trump and Federal Reserve chair Jerome Powell came to blows.",
-      "link": "https://www.bbc.com/news/articles/c7v952p61dgo?at_medium=RSS&at_campaign=rss",
-      "score": 6.4,
+      "id": "eea372538a4c",
+      "title": "The War Room newsletter: Why Trump wants a Taliban air base back",
+      "description": "The president’s neo-imperial worldview has something to do with it, according to Shashank Joshi, our defence editor",
+      "link": "https://www.economist.com/international/2025/09/22/the-war-room-newsletter-why-trump-wants-a-taliban-air-base-back",
+      "score": 6.3,
       "source_count": 1,
       "source_names": [
-        "bbc_world"
+        "economist_intl"
       ],
       "tracks": [
         {
-          "name": "pengepolitikk",
-          "color": "#185FA5",
-          "hits": 2
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 1
         },
         {
           "name": "valg_maktskifter",
@@ -223,21 +223,16 @@
       ]
     },
     {
-      "id": "2238a96a6dd1",
-      "title": "Oil surges past $125 as fears of prolonged supply disruption grow",
-      "description": "Brent crude sets new conflict high as blockade of Strait of Hormuz continues",
-      "link": "https://www.ft.com/content/ce575380-eccc-447c-a64e-493957d9b037",
+      "id": "6f21433afbd2",
+      "title": "How ransomware could cripple countries, not just companies",
+      "description": "Experts think 2023 was a record year for digital attacks",
+      "link": "https://www.economist.com/international/2023/12/31/how-ransomware-could-cripple-countries-not-just-companies",
       "score": 6.3,
       "source_count": 1,
       "source_names": [
-        "ft_world"
+        "economist_intl"
       ],
       "tracks": [
-        {
-          "name": "energi_ravarer",
-          "color": "#639922",
-          "hits": 2
-        },
         {
           "name": "konflikter",
           "color": "#D85A30",
@@ -246,33 +241,28 @@
       ]
     },
     {
-      "id": "49afa93ca822",
-      "title": "Inflation hits 50% in Iran as war rattles economy",
-      "description": "Consumers feel effects of conflict while many expect Strait of Hormuz stand-off to exacerbate stagnation",
-      "link": "https://www.ft.com/content/d91c1132-c4ae-4d9d-99bd-142e5a262b6a",
+      "id": "b8e23cd44adb",
+      "title": "EU tillater ekstra krisestøtte fra staten på grunn av krigen i Midtøsten",
+      "description": "EU åpner for at medlemmene kan gi mer statsstøtte. Bakgrunnen er krisen i Midtøsten og høyere priser for forbrukere.\nDet opplyser EU-kommisjonær Teresa Ribera på en pressekonferanse i Brussel onsdag.\nEU skriver at mer statsstøtte kan gis på\nde mest utsatte sektorene i økonomien: landbruk, fiskeri...",
+      "link": "https://www.nrk.no/nyheter/eu-tillater-ekstra-krisestotte-fra-staten-pa-grunn-av-krigen-i-midtosten-1.17865501",
       "score": 6.3,
       "source_count": 1,
       "source_names": [
-        "ft_world"
+        "nrk_urix"
       ],
       "tracks": [
         {
-          "name": "pengepolitikk",
-          "color": "#185FA5",
-          "hits": 1
-        },
-        {
           "name": "konflikter",
           "color": "#D85A30",
-          "hits": 2
+          "hits": 1
         }
       ]
     }
   ],
   "stats": {
-    "total_fetched": 492,
-    "after_dedup": 470,
-    "above_threshold": 166,
+    "total_fetched": 525,
+    "after_dedup": 502,
+    "above_threshold": 167,
     "published": 10
   }
 }
