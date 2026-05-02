@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-01T07:29:42Z",
-  "generated_date": "01. may 2026",
+  "generated_at": "2026-05-02T07:03:40Z",
+  "generated_date": "02. may 2026",
   "threat_level": {
     "level": "High",
     "color": "#A32D2D"
@@ -17,17 +17,17 @@
       "label": "Handel / Sanksjoner"
     },
     "energi_ravarer": {
-      "count": 1,
+      "count": 2,
       "color": "#639922",
       "label": "Energi / Ravarer"
     },
     "konflikter": {
-      "count": 10,
+      "count": 5,
       "color": "#D85A30",
       "label": "Konflikter"
     },
     "valg_maktskifter": {
-      "count": 5,
+      "count": 4,
       "color": "#7F77DD",
       "label": "Valg / Maktskifter"
     },
@@ -39,11 +39,81 @@
   },
   "articles": [
     {
+      "id": "8edf5bbf1d05",
+      "title": "US said to be withdrawing 5,000 troops from Germany over Iran war spat",
+      "description": "President Donald Trump has feuded with European allies over their reluctance to step up support for war on Iran.",
+      "link": "https://www.aljazeera.com/news/2026/5/1/us-said-to-be-withdrawing-5000-troops-from-germany-over-iran-war-spat?traffic_source=rss",
+      "score": 7.4,
+      "source_count": 2,
+      "source_names": [
+        "aljazeera",
+        "ft_world"
+      ],
+      "tracks": [
+        {
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 2
+        },
+        {
+          "name": "valg_maktskifter",
+          "color": "#7F77DD",
+          "hits": 2
+        }
+      ]
+    },
+    {
+      "id": "764c3da7a62c",
+      "title": "Trump announces 25 percent tariffs on European Union cars, trucks",
+      "description": "US president says EU ‘not complying’ with current trade deal, launches new tariffs to begin next week.",
+      "link": "https://www.aljazeera.com/news/2026/5/1/trump-announces-25-percent-tariffs-on-european-union-cars-trucks?traffic_source=rss",
+      "score": 5.2,
+      "source_count": 1,
+      "source_names": [
+        "aljazeera"
+      ],
+      "tracks": [
+        {
+          "name": "handel_sanksjoner",
+          "color": "#A32D2D",
+          "hits": 2
+        },
+        {
+          "name": "valg_maktskifter",
+          "color": "#7F77DD",
+          "hits": 2
+        }
+      ]
+    },
+    {
+      "id": "472a45fc3476",
+      "title": "Oljeprisen rett til værs: Så mye mer tjener Norge på krigen",
+      "description": "Norges oljegiganter leverer enorme overskudd mens konfliktene raser. Vår Energis ferske tall bekrefter at uroen i Midtøsten gjør oss rikere.",
+      "link": "https://www.nrk.no/rogaland/oljeprisen-til-himmels-_-sa-mye-tjener-norge-pa-krigen-i-midtosten-1.17863799",
+      "score": 5.2,
+      "source_count": 1,
+      "source_names": [
+        "nrk_urix"
+      ],
+      "tracks": [
+        {
+          "name": "energi_ravarer",
+          "color": "#639922",
+          "hits": 2
+        },
+        {
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 2
+        }
+      ]
+    },
+    {
       "id": "6dc8aae6bd27",
       "title": "Skyhøy oljepris: Over 126 dollar fatet",
       "description": "Prisen på nordsjøolje med levering neste måned var på over 126 dollar fatet torsdag morgen.\nDet er det høyeste oljeprisen har vært siden USA og Israel gikk til krig mot Iran, skriver E24.\nStigningen kommer etter at USAs president Donald Trump varslet at blokaden av iranske havner kan vare i flere...",
       "link": "https://www.nrk.no/nyheter/skyhoy-oljepris_-over-126-dollar-fatet-1.17866453",
-      "score": 7.2,
+      "score": 5.2,
       "source_count": 1,
       "source_names": [
         "nrk_urix"
@@ -71,7 +141,7 @@
       "title": "China tries shock-and-awe on Donald Trump",
       "description": "Xi Jinping’s bet that dramatic escalation is the way to win a trade war",
       "link": "https://www.economist.com/international/2025/10/12/china-tries-shock-and-awe-on-donald-trump",
-      "score": 7.0,
+      "score": 5.0,
       "source_count": 1,
       "source_names": [
         "economist_intl"
@@ -94,7 +164,7 @@
       "title": "A UN vote on Palestine underlines America’s weakening clout",
       "description": "Russia and China are riding a surge of support for the Palestinians since the Gaza war started",
       "link": "https://www.economist.com/international/2024/09/18/a-un-vote-on-palestine-underlines-americas-weakening-clout",
-      "score": 7.0,
+      "score": 5.0,
       "source_count": 1,
       "source_names": [
         "economist_intl"
@@ -108,161 +178,15 @@
         {
           "name": "valg_maktskifter",
           "color": "#7F77DD",
-          "hits": 1
-        }
-      ]
-    },
-    {
-      "id": "4115eee9309f",
-      "title": "Iran war: What’s happening on day 63 as Trump signals possible attacks",
-      "description": "Iran’s president calls the US siege 'intolerable' as Donald Trump says war may resume.",
-      "link": "https://www.aljazeera.com/news/2026/5/1/iran-war-whats-happening-on-day-63-as-trump-signals-possible-attacks?traffic_source=rss",
-      "score": 6.8,
-      "source_count": 1,
-      "source_names": [
-        "aljazeera"
-      ],
-      "tracks": [
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 1
-        },
-        {
-          "name": "valg_maktskifter",
-          "color": "#7F77DD",
-          "hits": 2
-        }
-      ]
-    },
-    {
-      "id": "f532575a449e",
-      "title": "The world faces its worst trade wars since the 1930s",
-      "description": "Donald Trump’s re-election accelerates a crisis for globalisation",
-      "link": "https://www.economist.com/international/2024/11/07/the-world-faces-its-worst-trade-wars-since-the-1930s",
-      "score": 6.8,
-      "source_count": 1,
-      "source_names": [
-        "economist_intl"
-      ],
-      "tracks": [
-        {
-          "name": "handel_sanksjoner",
-          "color": "#A32D2D",
-          "hits": 1
-        },
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 1
-        },
-        {
-          "name": "valg_maktskifter",
-          "color": "#7F77DD",
-          "hits": 1
-        }
-      ]
-    },
-    {
-      "id": "f9901145b0c6",
-      "title": "The three steps on America’s ladder of military escalation",
-      "description": "Could America be dragged back into another Middle East war?",
-      "link": "https://www.economist.com/international/2023/10/25/the-three-steps-on-americas-ladder-of-military-escalation",
-      "score": 6.8,
-      "source_count": 1,
-      "source_names": [
-        "economist_intl"
-      ],
-      "tracks": [
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 3
-        }
-      ]
-    },
-    {
-      "id": "baeb5751ba07",
-      "title": "The War Room newsletter: Did a Russian weapon spook Trump?",
-      "description": "Shashank Joshi, our defence editor, talks missile protection—in Yorkshire",
-      "link": "https://www.economist.com/international/2025/11/03/the-war-room-newsletter-did-a-russian-weapon-spook-trump",
-      "score": 6.5,
-      "source_count": 1,
-      "source_names": [
-        "economist_intl"
-      ],
-      "tracks": [
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 2
-        }
-      ]
-    },
-    {
-      "id": "eea372538a4c",
-      "title": "The War Room newsletter: Why Trump wants a Taliban air base back",
-      "description": "The president’s neo-imperial worldview has something to do with it, according to Shashank Joshi, our defence editor",
-      "link": "https://www.economist.com/international/2025/09/22/the-war-room-newsletter-why-trump-wants-a-taliban-air-base-back",
-      "score": 6.3,
-      "source_count": 1,
-      "source_names": [
-        "economist_intl"
-      ],
-      "tracks": [
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 1
-        },
-        {
-          "name": "valg_maktskifter",
-          "color": "#7F77DD",
-          "hits": 2
-        }
-      ]
-    },
-    {
-      "id": "6f21433afbd2",
-      "title": "How ransomware could cripple countries, not just companies",
-      "description": "Experts think 2023 was a record year for digital attacks",
-      "link": "https://www.economist.com/international/2023/12/31/how-ransomware-could-cripple-countries-not-just-companies",
-      "score": 6.3,
-      "source_count": 1,
-      "source_names": [
-        "economist_intl"
-      ],
-      "tracks": [
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
-          "hits": 1
-        }
-      ]
-    },
-    {
-      "id": "b8e23cd44adb",
-      "title": "EU tillater ekstra krisestøtte fra staten på grunn av krigen i Midtøsten",
-      "description": "EU åpner for at medlemmene kan gi mer statsstøtte. Bakgrunnen er krisen i Midtøsten og høyere priser for forbrukere.\nDet opplyser EU-kommisjonær Teresa Ribera på en pressekonferanse i Brussel onsdag.\nEU skriver at mer statsstøtte kan gis på\nde mest utsatte sektorene i økonomien: landbruk, fiskeri...",
-      "link": "https://www.nrk.no/nyheter/eu-tillater-ekstra-krisestotte-fra-staten-pa-grunn-av-krigen-i-midtosten-1.17865501",
-      "score": 6.3,
-      "source_count": 1,
-      "source_names": [
-        "nrk_urix"
-      ],
-      "tracks": [
-        {
-          "name": "konflikter",
-          "color": "#D85A30",
           "hits": 1
         }
       ]
     }
   ],
   "stats": {
-    "total_fetched": 525,
-    "after_dedup": 502,
-    "above_threshold": 167,
-    "published": 10
+    "total_fetched": 488,
+    "after_dedup": 466,
+    "above_threshold": 6,
+    "published": 6
   }
 }
