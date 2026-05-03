@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-02T07:03:40Z",
-  "generated_date": "02. may 2026",
+  "generated_at": "2026-05-03T07:21:51Z",
+  "generated_date": "03. may 2026",
   "threat_level": {
     "level": "High",
     "color": "#A32D2D"
@@ -17,12 +17,12 @@
       "label": "Handel / Sanksjoner"
     },
     "energi_ravarer": {
-      "count": 2,
+      "count": 1,
       "color": "#639922",
       "label": "Energi / Ravarer"
     },
     "konflikter": {
-      "count": 5,
+      "count": 8,
       "color": "#D85A30",
       "label": "Konflikter"
     },
@@ -39,21 +39,20 @@
   },
   "articles": [
     {
-      "id": "8edf5bbf1d05",
-      "title": "US said to be withdrawing 5,000 troops from Germany over Iran war spat",
-      "description": "President Donald Trump has feuded with European allies over their reluctance to step up support for war on Iran.",
-      "link": "https://www.aljazeera.com/news/2026/5/1/us-said-to-be-withdrawing-5000-troops-from-germany-over-iran-war-spat?traffic_source=rss",
-      "score": 7.4,
-      "source_count": 2,
+      "id": "efc879b28d75",
+      "title": "The Iran war has strengthened Ukraine in surprising ways. Could a ceasefire with Russia be closer?",
+      "description": "President Zelensky has been visiting the Gulf to demonstrate his country's military nous.",
+      "link": "https://www.bbc.com/news/articles/cgjp7vpee03o?at_medium=RSS&at_campaign=rss",
+      "score": 6.2,
+      "source_count": 1,
       "source_names": [
-        "aljazeera",
-        "ft_world"
+        "bbc_world"
       ],
       "tracks": [
         {
           "name": "konflikter",
           "color": "#D85A30",
-          "hits": 2
+          "hits": 3
         },
         {
           "name": "valg_maktskifter",
@@ -63,19 +62,66 @@
       ]
     },
     {
-      "id": "764c3da7a62c",
-      "title": "Trump announces 25 percent tariffs on European Union cars, trucks",
-      "description": "US president says EU ‘not complying’ with current trade deal, launches new tariffs to begin next week.",
-      "link": "https://www.aljazeera.com/news/2026/5/1/trump-announces-25-percent-tariffs-on-european-union-cars-trucks?traffic_source=rss",
-      "score": 5.2,
+      "id": "7cf684b636fc",
+      "title": "US threatens shipping firms with sanctions if they pay Iran tolls",
+      "description": "The warning comes as President Donald Trump said he was \"not excited\" by Iran's latest proposal for a peace deal.",
+      "link": "https://www.bbc.com/news/articles/c3v2l2qq9qlo?at_medium=RSS&at_campaign=rss",
+      "score": 6.0,
       "source_count": 1,
       "source_names": [
-        "aljazeera"
+        "bbc_world"
       ],
       "tracks": [
         {
           "name": "handel_sanksjoner",
           "color": "#A32D2D",
+          "hits": 2
+        },
+        {
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 1
+        },
+        {
+          "name": "valg_maktskifter",
+          "color": "#7F77DD",
+          "hits": 2
+        }
+      ]
+    },
+    {
+      "id": "5ab84f73b68a",
+      "title": "US approves $8.6bn in arms sales to Middle East allies",
+      "description": "Move to shore up regional partners during Iran war comes as US warns Europe of delays to weapons shipments",
+      "link": "https://www.aljazeera.com/economy/2026/5/3/us-approves-8-6bn-in-arms-sales-to-middle-east-allies?traffic_source=rss",
+      "score": 5.3,
+      "source_count": 2,
+      "source_names": [
+        "aljazeera",
+        "ft_world"
+      ],
+      "tracks": [
+        {
+          "name": "konflikter",
+          "color": "#D85A30",
+          "hits": 1
+        }
+      ]
+    },
+    {
+      "id": "ce71eee07dfd",
+      "title": "Germany says US troop withdrawal 'foreseeable' as Trump warns of more 'cuts'",
+      "description": "In the US, two senior Republicans voice concern over President Trump's decision to pull out 5,000 troops.",
+      "link": "https://www.bbc.com/news/articles/cd9pn541jjlo?at_medium=RSS&at_campaign=rss",
+      "score": 5.2,
+      "source_count": 1,
+      "source_names": [
+        "bbc_world"
+      ],
+      "tracks": [
+        {
+          "name": "konflikter",
+          "color": "#D85A30",
           "hits": 2
         },
         {
@@ -109,30 +155,21 @@
       ]
     },
     {
-      "id": "6dc8aae6bd27",
-      "title": "Skyhøy oljepris: Over 126 dollar fatet",
-      "description": "Prisen på nordsjøolje med levering neste måned var på over 126 dollar fatet torsdag morgen.\nDet er det høyeste oljeprisen har vært siden USA og Israel gikk til krig mot Iran, skriver E24.\nStigningen kommer etter at USAs president Donald Trump varslet at blokaden av iranske havner kan vare i flere...",
-      "link": "https://www.nrk.no/nyheter/skyhoy-oljepris_-over-126-dollar-fatet-1.17866453",
-      "score": 5.2,
-      "source_count": 1,
+      "id": "6c35716e2ce4",
+      "title": "Oil tanker hijacked off coast of Yemen and taken towards Somalia",
+      "description": "It is the second time an oil tanker has been hijacked in the area in the past 10 days.",
+      "link": "https://www.bbc.com/news/articles/cpwprl0v2npo?at_medium=RSS&at_campaign=rss",
+      "score": 5.1,
+      "source_count": 2,
       "source_names": [
-        "nrk_urix"
+        "aljazeera",
+        "bbc_world"
       ],
       "tracks": [
-        {
-          "name": "energi_ravarer",
-          "color": "#639922",
-          "hits": 1
-        },
         {
           "name": "konflikter",
           "color": "#D85A30",
           "hits": 1
-        },
-        {
-          "name": "valg_maktskifter",
-          "color": "#7F77DD",
-          "hits": 2
         }
       ]
     },
@@ -184,9 +221,9 @@
     }
   ],
   "stats": {
-    "total_fetched": 488,
-    "after_dedup": 466,
-    "above_threshold": 6,
-    "published": 6
+    "total_fetched": 489,
+    "after_dedup": 467,
+    "above_threshold": 8,
+    "published": 8
   }
 }
